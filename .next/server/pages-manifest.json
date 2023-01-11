@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/cloud-membership": "pages/cloud-membership.js",
+  "/web3": "pages/web3.js",
+  "/why-mtsn": "pages/why-mtsn.js",
+  "/case-studies": "pages/case-studies.js",
+  "/services": "pages/services.js",
+  "/contact-us": "pages/contact-us.js"
+}
