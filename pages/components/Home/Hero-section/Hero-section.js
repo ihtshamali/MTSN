@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col'
 import team from '../Hero-section/team.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import Button from '../../Button/Button'
 
 function Herosection() {
     return (
@@ -22,8 +23,7 @@ function Herosection() {
                                 <p style={{fontSize: "20px", fontWeight: "400"}}  className="text-white mb-6">
                                     Discover what our on-demand cloud development teams can do for your bottom line today.
                                 </p>
-                                <Link style={{background: "linear-gradient(90.43deg, #E16C12 3.69%, #8E440C 59.05%)"}} href="/contact-us" role="button" tabindex="0" className="btn btn-lg text-decoration-none text-white position-relative at-zindex3">Book Free Consultation
-                                </Link>
+                                <Button btntitle="Book Free Consultation"/>
                                 
                             </div>
                         </Col>

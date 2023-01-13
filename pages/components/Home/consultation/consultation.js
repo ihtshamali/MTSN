@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import Button from '../../Button/Button'
 
 function Consultation() {
     return (
@@ -13,9 +14,7 @@ function Consultation() {
                             <p className="fs18 text-white mb-5">
                                 Build a winning cloud-based development team with Renesis today.
                             </p>
-                            <Link href="/contact-us" role="button" tabindex="0" className="btn btn-call btn-lg">
-                                Book Free Consultation
-                            </Link>
+                            <Button btntitle="Book Free Consultation"/>
                         </Col>
                     </Row>
                 </Container>
