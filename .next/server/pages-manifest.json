@@ -2,5 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/services/web-development": "pages/services/web-development.js",
+  "/": "pages/index.js",
+  "/services/mobile-development": "pages/services/mobile-development.js",
+  "/services/blockchain-development": "pages/services/blockchain-development.js",
+  "/services/design": "pages/services/design.js",
+  "/services/ai": "pages/services/ai.js"
 }

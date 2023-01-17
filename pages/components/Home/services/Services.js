@@ -77,7 +77,7 @@ function Services() {
                                                 height={35} />
                                         </li>
                                     </ul>
-                                    <Link className='text-white text-decoration-none' href="/web-development">View Work<span className='arrow-right mt-1 ms-2'></span></Link>
+                                    <Link className='text-white text-decoration-none' href={'/services/web-development'}>View Work<span className='arrow-right mt-1 ms-2'></span></Link>
                                     <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 mt-n8r'>
                                         <Image src={laptop}
                                             alt="Laptop"
@@ -127,7 +127,7 @@ function Services() {
                                                 height={35} />
                                         </li>
                                     </ul>
-                                    <Link className='text-white text-decoration-none' href="/mobile-development">View Work<span className='arrow-right mt-1 ms-2'></span></Link>
+                                    <Link className='text-white text-decoration-none' href={'/services/mobile-development'}>View Work<span className='arrow-right mt-1 ms-2'></span></Link>
                                     <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 mt-n8r'>
                                         <Image src={mobile}
                                             alt="mobile"
@@ -187,7 +187,7 @@ function Services() {
                                                         height={35} />
                                                 </li>
                                             </ul>
-                                            <Link className='text-white text-decoration-none' href="/blockchain-development">View Work<span className='arrow-right mt-1 ms-2'></span></Link>
+                                            <Link className='text-white text-decoration-none' href={'/services/blockchain-development'}>View Work<span className='arrow-right mt-1 ms-2'></span></Link>
 
                                         </div>
                                     </div>
@@ -247,7 +247,7 @@ function Services() {
                                                 height={30} />
                                         </li>
                                     </ul>
-                                    <Link className='text-white text-decoration-none' href="/design">View Work<span className='arrow-right mt-1 ms-2'></span></Link>
+                                    <Link className='text-white text-decoration-none' href={'/services/design'}>View Work<span className='arrow-right mt-1 ms-2'></span></Link>
                                     <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 m-design'>
                                         <Image src={design}
                                             alt="design"
@@ -296,7 +296,7 @@ function Services() {
                                                 height={35} />
                                         </li>
                                     </ul>
-                                    <Link className='text-white text-decoration-none' href="/ai">View Work<span className='arrow-right mt-1 ms-2'></span></Link>
+                                    <Link className='text-white text-decoration-none' href={'/services/ai'}>View Work<span className='arrow-right mt-1 ms-2'></span></Link>
                                     <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 m-ai'>
                                         <Image src={ai}
                                             alt="ai"
