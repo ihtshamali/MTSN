@@ -81,7 +81,7 @@ function Services() {
                                     <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 mt-n8r'>
                                         <Image src={laptop}
                                             alt="Laptop"
-                                            className='laptop-img'
+                                            className='d-none d-lg-block overflow-hidden laptop-img'
                                         />
                                     </div>
 
@@ -131,7 +131,7 @@ function Services() {
                                     <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 mt-n8r'>
                                         <Image src={mobile}
                                             alt="mobile"
-                                            className='mobile-img'
+                                            className='d-none d-lg-block overflow-hidden mobile-img'
                                         />
                                     </div>
                                 </div>
@@ -197,7 +197,7 @@ function Services() {
                                     <Image src={Blockchain}
                                         alt="Blockchain"
                                         
-                                        className='py-3 blockchain-img'
+                                        className='d-none d-lg-block overflow-hidden py-3 blockchain-img'
                                     />
 
                                 </div>
@@ -251,7 +251,7 @@ function Services() {
                                     <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 m-design'>
                                         <Image src={design}
                                             alt="design"
-                                            className='design-img'
+                                            className='d-none d-lg-block overflow-hidden design-img'
                                         />
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@ function Services() {
                                     <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 m-ai'>
                                         <Image src={ai}
                                             alt="ai"
-                                            className='ai-img'
+                                            className='d-none d-lg-block overflow-hidden ai-img'
                                         />
                                     </div>
                                 </div>

@@ -5,11 +5,24 @@ import Image from 'next/image'
 function Memberships() {
     return (
         <>
+        <style jsx>{`
+          .px-xxl-95{
+            padding-right: 9.5rem;
+            padding-left: 9.5rem;
+          }
+        @media(max-width: 767px){
+            .px-xxl-95{
+                padding-right: 20px;
+                padding-left: 20px;
+              }
+        } 
+        `}
+            </style>
             <section style={{ backgroundColor: '#151720' }} className='py-5'>
                 <Container>
                     <h2 className='fs40 py-4 px-lg-0 mb-2 text-center text-white'>Cloud Membership</h2>
                     <h3 style={{ color: 'rgba(156, 153, 153, 1)' }} className='fs28 mb-5 text-center'>Cut costs, not corners</h3>
-                    <p style={{ color: 'rgba(156, 153, 153, 1)' }} className='fs18 px-xxl-38 text-center mb-5 mb-lg-12'>
+                    <p style={{ color: 'rgba(156, 153, 153, 1)' }} className='fs18 px-xxl-95 text-center mb-5 mb-lg-12'>
                         Utilizing cloud-based remote work allows businesses to access top-tier development talent
                         from around the world at a more affordable cost compared to building an in-house team.
                     </p>

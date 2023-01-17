@@ -10,24 +10,43 @@ import Button from '../../Button/Button'
 function Herosection() {
     return (
         <>
+        <style jsx>{`
+        .h1tag{
+            font-size: 48px;
+            font-weight: 500;
+        }
+        .p-tag{
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }  
+        @media(max-width: 767px){
+            .p-tag{
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+        } 
+        `}
+        </style>
         <section>
             <div className="col-lg-12 col-12" style={{ backgroundColor: "#242146", color: "white" }}>
                 <Container>
                     <Row>
                         <Col style={{ alignSelf: "center" }}>
                             <div style={{ padding: "50px 0px" }}>
-                                <a style={{ color: "#D96912", fontSize: "16px", fontWeight: "400", cursor: 'text'}} className="text-decoration-none" href="#">One-Stop Cloud Ecosystem</a>
-                                <h1 style={{fontSize: "48px", fontWeight: "500"}} className="text-white mb-2">
+                                <a style={{ color: "#D96912", fontSize: "16px", fontWeight: "400", cursor: 'text'}} className="text-decoration-none" >One-Stop Cloud Ecosystem</a>
+                                <h1 className="h1tag text-white mb-2">
                                     Remote Development, Right at Your Fingertips
                                 </h1>
-                                <p style={{fontSize: "20px", fontWeight: "400"}}  className="text-white mb-6">
+                                <p className="p-tag text-white mb-6">
                                     Discover what our on-demand cloud development teams can do for your bottom line today.
                                 </p>
                                 <Button btntitle="Book Free Consultation"/>
                                 
                             </div>
                         </Col>
-                        <Col style={{ textAlign: "center" }}>
+                        <Col className="d-none d-lg-block overflow-hidden mb-n2  col-xxl-5 col-lg-6 col-12" style={{ textAlign: "center" }}>
                             <div>
                                 <Image src={team}
                                     alt="Team"

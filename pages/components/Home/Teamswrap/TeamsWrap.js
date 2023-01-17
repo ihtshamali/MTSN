@@ -4,6 +4,19 @@ import { Container, Row, Col } from 'react-bootstrap'
 function Meaningful() {
     return (
         <>
+            <style jsx>{`
+          .px-xxl-95{
+            padding-right: 9.5rem;
+            padding-left: 9.5rem;
+          }
+        @media(max-width: 767px){
+            .px-xxl-95{
+                padding-right: 20px;
+                padding-left: 20px;
+              }
+        } 
+        `}
+            </style>
             <section>
                 <Container className='pt-5 text-white'>
                     <Row>
@@ -12,14 +25,14 @@ function Meaningful() {
                                 <h2 className='fs-40 pb-4'>
                                     Meaningful Result with our Virtual Teams
                                 </h2>
-                                <p className='fs18 pb-4 px-xxl-38'>
+                                <p className='fs18 pb-4 px-xxl-95'>
                                     MTSN enables remote access to skilled development teams, including front-end and back-end developers
                                     and UI/UX designers, to support the growth and success of your organization.
                                 </p>
                                 <h3 className='fs40 pb-4'>
                                     Solutions you need
                                 </h3>
-                                <p className='fs18 pb-4 px-xxl-38'>
+                                <p className='fs18 pb-4 px-xxl-95'>
                                     MTSN connects businesses with high-performing remote tech teams who can turn visionary ideas into reality.
                                     Our on-demand services deliver tangible results for businesses.
                                 </p>
