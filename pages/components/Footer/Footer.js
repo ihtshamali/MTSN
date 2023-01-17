@@ -42,19 +42,19 @@ function Footer() {
                                             <Link className="text-700 text-decoration-none text-white" href="/case-studies">Case Studies</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Cloud Membership</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/cloud-membership">Cloud Membership</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Services</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/services">Services</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Careers</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/careers">Careers</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Blog</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/blog">Blog</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Contact Us</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/contact-us">Contact Us</Link>
                                         </li>
                                     </ul>
                                 </div>
