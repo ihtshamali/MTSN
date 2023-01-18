@@ -8,6 +8,13 @@ import Link from 'next/link';
 
 function Header() {
   return (
+    <>
+    <style jsx>
+      {`
+      
+      
+      `}
+    </style>
     <Navbar bg="dark" expand="lg">
       <Container>
         <Link href='/' className='navbar-brand'>
@@ -25,7 +32,7 @@ function Header() {
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
-          >
+            >
             <ul className='tex-light inline-list'>
               <li className='ps-5'>
                 <Link className='text-decoration-none' href="/cloud-membership">Cloud Membership</Link>
@@ -48,6 +55,7 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+            </>
   );
 }
 
