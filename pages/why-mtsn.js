@@ -10,12 +10,13 @@ function WhyMTSN() {
         <meta name="description" content="Blockchian Development" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Hero headingtitle="Why MTSN?"
-        paragraphtext="Top into our skilled, experienced talent pool and build your on-demand blockchain development team today."
-        btntitle="Book Free Consultation"
-        picture={Cloudmebersip}
-        alttext="Cloudmebersip"
-        cname="py-5 image-size"
+      <Hero className="text-center py-6"
+        headingtitle="Why MTSN?"
+        headingclass="h1tag text-white mb-2 text-center"
+        paragraphtext="Struggling to source top tech talent? You’re not alone. Companies of all 
+        sizes are facing difficulties hiring world-class development teams that fit within their 
+        team dynamic and budget. We created MTSN to increase access and improve affordability."
+        firstcol="col-12"
       />
 
     </>

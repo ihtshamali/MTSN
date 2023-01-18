@@ -32,12 +32,12 @@ function Hero(props) {
                 <div className="col-lg-12 col-12" style={{ backgroundColor: "#242146", color: "white" }}>
                     <Container>
                         <Row>
-                            <Col className="col-xxl-7 col-lg-6 col-12" style={{ alignSelf: "center" }}>
+                            <Col className={props.firstcol}  style={{ alignSelf: "center" }}>
                                 <div className="py-5" >
                                     <span style={{ color: "#D96912", fontSize: "16px", fontWeight: "400", cursor: 'text' }} className="text-decoration-none" >
                                         {props.spantext}
                                     </span>
-                                    <h1 className="h1tag text-white mb-2">
+                                    <h1 className={props.headingclass}>
                                         {props.headingtitle}
                                     </h1>
                                     <p className="p-tag text-white mb-6">
@@ -45,13 +45,13 @@ function Hero(props) {
                                     </p>
                                     <Link style={{ background: "linear-gradient(90.43deg, #E16C12 3.69%, #8E440C 59.05%)" }}
                                         href="/contact-us" role="button" tabindex="0"
-                                        className="btn btn-lg text-decoration-none text-white position-relative at-zindex3">
+                                        className={props.btncname}>
                                         {props.btntitle}
                                     </Link>
 
                                 </div>
                             </Col>
-                            <Col className="d-none d-lg-block overflow-hidden mb-n2  col-xxl-5 col-lg-6 col-12" style={{ textAlign: "center" }}>
+                            <Col className={props.secondcol} style={{ textAlign: "center" }}>
                             <div>
                                     <Image src={props.picture}
                                         alt={props.alttext}

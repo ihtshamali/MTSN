@@ -12,8 +12,10 @@ function Services() {
       </Head>
       <Hero spantext="Our Solutions"
         headingtitle="Ready to Bring Your Vision to Life?"
+        headingclass="h1tag text-white mb-2"
         paragraphtext="Optimize your development process with a MTSN team today."
         btntitle="Book Free Consultation"
+        btncname="btn btn-lg text-decoration-none text-white position-relative at-zindex3"
         picture={ServicesImg}
         alttext="Services"
         cname="py-5 image-services"

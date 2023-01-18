@@ -12,8 +12,10 @@ function Casestudies() {
       </Head>
       <Hero spantext="Case Studies"
         headingtitle="MTSN Turn Tech into a Competitive Advantage"
+        headingclass="h1tag text-white mb-2"
         paragraphtext="Our on-demand teams reduce costs and boost productivity. Schedule a free consultation today learn more."
         btntitle="Book Free Consultation"
+        btncname="btn btn-lg text-decoration-none text-white position-relative at-zindex3"
         picture={Cloudmebersip}
         alttext="Cloudmebersip"
         cname="py-5 image-size"
