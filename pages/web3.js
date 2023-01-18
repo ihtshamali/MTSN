@@ -18,6 +18,7 @@ function Web3() {
         paragraphtext="Top into our skilled, experienced talent pool and build your on-demand blockchain development team today."
         btntitle="Book Free Consultation"
         btncname="btn btn-lg text-decoration-none text-white position-relative at-zindex3"
+        
         secondcol="d-none d-lg-block overflow-hidden mb-n2  col-xxl-5 col-lg-6 col-12"
         picture={web}
         alttext="web"
