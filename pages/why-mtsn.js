@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from './components/Herosection/herosection'
+import Cloudmebersip from '../public/cloud-membership.png'
 
 function WhyMTSN() {
   return (
@@ -11,7 +12,12 @@ function WhyMTSN() {
       </Head>
       <Hero headingtitle="Why MTSN?"
         paragraphtext="Top into our skilled, experienced talent pool and build your on-demand blockchain development team today."
-        btntitle="Book Free Consultation" />
+        btntitle="Book Free Consultation"
+        picture={Cloudmebersip}
+        alttext="Cloudmebersip"
+        cname="py-5 image-size"
+      />
+
     </>
   )
 }

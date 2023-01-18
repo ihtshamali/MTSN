@@ -6,15 +6,19 @@ import Cloudmebersip from '../public/cloud-membership.png'
 function Cloudmembership() {
     return (
         <>
+            
             <Head>
                 <title>Cloud Membership-MTSN</title>
                 <meta name="description" content="Multi Tech Solutions " />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <Hero spantext="Access elite talent"
+            <Hero className="py-5" spantext="Access elite talent"
                 headingtitle="Your virtual workspace awaits"
                 paragraphtext="scale faster with a cloud-based development team from MTSN"
                 btntitle="Book Free Consultation"
+                picture={Cloudmebersip}
+                alttext="Cloudmebersip"
+                cname="py-5 image-size"
             />
 
         </>

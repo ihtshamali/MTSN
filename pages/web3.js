@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from './components/Herosection/herosection'
+import web from '../public/web3.png'
 
 function Web3() {
   return (
@@ -13,6 +14,9 @@ function Web3() {
         headingtitle="Cloud-based Blackchain Development Service"
         paragraphtext="Top into our skilled, experienced talent pool and build your on-demand blockchain development team today."
         btntitle="Book Free Consultation"
+        picture={web}
+        alttext="web"
+        cname="py-5 image-size"
       />
     </>
   )
