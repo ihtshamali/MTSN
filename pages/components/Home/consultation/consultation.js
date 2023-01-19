@@ -11,10 +11,11 @@ function Consultation() {
                     <Row>
                         <Col className='py-4'>
                             <h2 className="fs40 text-white mb-4">Ready to take your tech to the next level?</h2>
-                            <p className="fs18 text-white mb-5">
-                                Build a winning cloud-based development team with Renesis today.
+                            <p className="fs18 text-white mb-4 fw500">
+                                Construct a successful cloud-based development<br/>
+                                team with the help of MTSN.
                             </p>
-                            <Button btntitle="Book Free Consultation"/>
+                            <Button btntitle="Book Free Consultation" />
                         </Col>
                     </Row>
                 </Container>

@@ -16,21 +16,31 @@ function Enterpriseplan() {
                             />
                         </Col>
                         <Col className="col-md-8 text-white">
-                            <h2 className="mb-4">Enterprise Plan</h2>
+                            <h2 className="mb-4 fs40">Enterprise Plan</h2>
                             <h3 className="mb-4 fs-4">World-class talent for complex development projects</h3>
-                            <p className="fs18">
+                            <p className="fs18 mb-4">
                                 Take your current and upcoming projects to the next level with our premium cloud development package.
                             </p>
                             <Row>
                                 <Col className="d-flex flex-column col-lg-4">
-                                    <strong className="d-block fs-5 mb-5">Exclusive Benefits:</strong>
+                                    <strong className="d-block fs-5 mb-4">Exclusive Benefits:</strong>
                                     <div className="fs-5 mb-4 mb-lg-7 rt-nav nav">
-                                        <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">Reduced Hourly Rates</div>
-                                        <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">Project Management Suite</div>
-                                        <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">60 Hours of UI/UX and Front-end</div>
+                                        <div className="mb-4 float-left position-relative ps-3 nav-item">Reduced Hourly Rates</div>
+                                        <div className="mb-4 float-left position-relative ps-3 nav-item">Project Management Suite</div>
+                                        <div className="mb-4 float-left position-relative ps-3 nav-item">60 Hours of UI/UX and Front-end</div>
                                     </div>
                                 </Col>
                                 <Col className="d-flex flex-column col-lg-8">
+                                    <strong className="d-block fs-5 mb-4">Your cloud team includes:</strong>
+                                    <div className="fs-5 mb-5 mb-lg-7 rt-nav nav">
+                                        <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">Project Manager</div>
+                                        <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">Solution Architect</div>
+                                        <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">UI/UX Designer</div>
+                                        <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">Full-Stack Developer</div>
+                                        <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">iOS Developer</div>
+                                        <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">Android Developer</div>
+                                        <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">QA Engineer</div>
+                                    </div>
                                 </Col>
                             </Row>
                             <Button btntitle="Book Free Consultation" />

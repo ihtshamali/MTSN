@@ -5,6 +5,8 @@ import Cloudmebersip from '../public/cloud-membership.png'
 import Section1cloudmembership from './cloud-membership/section1-cloud-membership'
 import Startupplan from './cloud-membership/startup-plan'
 import Enterpriseplan from './cloud-membership/enterprise-plan'
+import Customplan from './cloud-membership/custom-plan'
+import Consultation from '../pages/components/Home/consultation/consultation'
 
 function Cloudmembership() {
     return (
@@ -32,6 +34,8 @@ function Cloudmembership() {
             <Section1cloudmembership/>
             <Startupplan/>
             <Enterpriseplan/>
+            <Customplan/>
+            <Consultation />
         </>
     )
 }
