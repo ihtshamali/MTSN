@@ -416,3 +416,55 @@ footer{
   width: 400px;
   height: auto;
 }
+
+.py-10 {
+  padding-top: 2.5rem!important;
+  padding-bottom: 2.5rem!important;
+}
+@media (min-width: 992px)
+{
+.py-lg-20 {
+    padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
+}
+}
+
+
+/* cloud-membership styling */
+.cloud-img-1{
+  width: 450px;
+  height: auto;
+}
+.cloud-img-2{
+  width: 200px;
+  height: auto;
+}
+.startup-bg:before {
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: -1;
+  width: 300px;
+  height: 580px;
+  position: absolute;
+  background: url(../public/cloud-membership/vector.png) no-repeat;
+  background-size: cover;
+}
+.rt-nav .nav-item:not(:empty):before {
+  left: 0;
+  top: 13px;
+  width: 6px;
+  height: 6px;
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #D96912;
+}
+
+
+@media (min-width: 1200px)
+{
+.fs-10, .fs-4 {
+    font-size: 1.5rem !important;
+}
+}
