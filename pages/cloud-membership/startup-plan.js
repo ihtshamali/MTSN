@@ -27,9 +27,9 @@ function Startupplan() {
                                     <div className="fs-5 mb-4 mb-lg-7 rt-nav nav">
                                         <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">UI/UX Designer</div>
                                         <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">A Developer</div>
-                                        <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">UI/UX Designer</div>
-                                        <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">UI/UX Designer</div>
-                                        <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">UI/UX Designer</div>
+                                        <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">Project Coordinator</div>
+                                        <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">QA Engineer</div>
+                                        <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">HR Specialist</div>
                                     </div>
                                 </Col>
                                 <Col className="d-flex flex-column col-lg-4">

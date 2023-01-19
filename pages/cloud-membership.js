@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Container } from 'react-bootstrap'
 import Hero from './components/Herosection/herosection'
 import Cloudmebersip from '../public/cloud-membership.png'
 import Section1cloudmembership from './cloud-membership/section1-cloud-membership'

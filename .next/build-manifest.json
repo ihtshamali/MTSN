@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/cloud-membership": [
+    "/why-mtsn": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/cloud-membership.js"
+      "static/chunks/pages/why-mtsn.js"
     ]
   },
   "ampFirstPages": []
