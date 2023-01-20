@@ -140,7 +140,8 @@ li {
   border-top: 1.5px solid #fff;
   border-left: 1.5px solid #fff;
 }
-.margin-1{
+
+.margin-1 {
   margin-left: -1rem;
 }
 
@@ -153,32 +154,40 @@ li {
   background-position: center;
   height: 1650px;
 }
-.dis-padd{
+
+.dis-padd {
   padding: 5rem 0 20rem 0;
 }
-.Visualpadd{
+
+.Visualpadd {
   padding: 5rem 0 20rem 0;
 }
-.Prep-padd{
+
+.Prep-padd {
   padding: 5rem 0 20rem 0;
 }
-.laptop-img{
+
+.laptop-img {
   width: 380px;
   height: 250px;
 }
-.mobile-img{
+
+.mobile-img {
   width: 350px;
   height: 243px;
 }
-.design-img{
-  width:255px;
-  height:203px;
+
+.design-img {
+  width: 255px;
+  height: 203px;
 }
-.ai-img{
+
+.ai-img {
   width: 270px;
   height: 180px;
 }
-.blockchain-img{
+
+.blockchain-img {
   width: 550px;
   height: 420px;
 }
@@ -191,37 +200,45 @@ li {
     background-position: center;
     height: 1415px;
   }
-  .dis-padd{
+
+  .dis-padd {
     padding: 4rem 0 10rem 0;
   }
-  .Visualpadd{
+
+  .Visualpadd {
     padding: 4rem 0 5rem 0;
   }
-  .Prep-padd{
+
+  .Prep-padd {
     padding: 15rem 0 0rem 0;
   }
 
-  .laptop-img{
+  .laptop-img {
     width: 310px;
     height: 200px;
   }
-  .mobile-img{
+
+  .mobile-img {
     width: 260px;
     height: 195px;
   }
-  .design-img{
-    width:180px;
-    height:170px;
+
+  .design-img {
+    width: 180px;
+    height: 170px;
   }
-  .ai-img{
+
+  .ai-img {
     width: 230px;
     height: 150px;
   }
-  .blockchain-img{
+
+  .blockchain-img {
     width: 470px;
     height: 370px;
   }
 }
+
 @media (min-width:1400px) {
   .features {
     background-image: url('../pages/components/Home/features/memberships.png');
@@ -230,32 +247,40 @@ li {
     background-position: center;
     height: 1650px;
   }
-  .dis-padd{
+
+  .dis-padd {
     padding: 5rem 0 20rem 0;
   }
-  .Visualpadd{
+
+  .Visualpadd {
     padding: 5rem 0 20rem 0;
   }
-  .Prep-padd{
+
+  .Prep-padd {
     padding: 5rem 0 20rem 0;
   }
-  .laptop-img{
+
+  .laptop-img {
     width: 380px;
     height: 250px;
   }
-  .mobile-img{
+
+  .mobile-img {
     width: 350px;
     height: 243px;
   }
-  .design-img{
-    width:255px;
-    height:203px;
+
+  .design-img {
+    width: 255px;
+    height: 203px;
   }
-  .ai-img{
+
+  .ai-img {
     width: 270px;
     height: 180px;
   }
-  .blockchain-img{
+
+  .blockchain-img {
     width: 550px;
     height: 420px;
   }
@@ -271,9 +296,12 @@ li {
   top: -20px;
   left: calc(50% - 20px);
 }
-.adoptDocker:after, .adoptDocker:before {
+
+.adoptDocker:after,
+.adoptDocker:before {
   display: block;
 }
+
 .adoptDocker:before {
   width: 40px;
   height: 40px;
@@ -281,6 +309,7 @@ li {
   top: -20px;
   left: calc(50% - 20px);
 }
+
 .adoptDocker:before {
   z-index: 2;
   content: "";
@@ -293,7 +322,8 @@ li {
   bottom: -8px;
   box-shadow: 0px 0px 0px 10px #D9D9D9;
 }
-.adoptDocker:after{
+
+.adoptDocker:after {
   z-index: 2;
   content: "";
   width: 20px;
@@ -395,50 +425,54 @@ li {
   margin-right: 0rem;
 }
 
-header a{
+header a {
   text-decoration: none;
 }
-footer{
+
+footer {
   position: sticky;
   top: 100%;
 }
 
-.image-size{
+.image-size {
   width: 100%;
   height: auto;
 }
-.image-services{
+
+.image-services {
   width: 420px;
   height: auto;
 }
 
-.image-case-studies{
+.image-case-studies {
   width: 400px;
   height: auto;
 }
 
 .py-10 {
-  padding-top: 2.5rem!important;
-  padding-bottom: 2.5rem!important;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
-@media (min-width: 992px)
-{
-.py-lg-20 {
-    padding-top: 5rem!important;
-    padding-bottom: 5rem!important;
-}
+
+@media (min-width: 992px) {
+  .py-lg-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 
 /* cloud-membership styling */
-.cloud-img-1{
+.cloud-img-1 {
   width: 450px;
   height: auto;
 }
-.cloud-img-2{
+
+.cloud-img-2 {
   width: 200px;
   height: auto;
 }
+
 .startup-bg:before {
   top: 0;
   left: 0;
@@ -450,6 +484,7 @@ footer{
   background: url(../public/cloud-membership/vector.png) no-repeat;
   background-size: cover;
 }
+
 .rt-nav .nav-item:not(:empty):before {
   left: 0;
   top: 13px;
@@ -463,12 +498,37 @@ footer{
 }
 
 
-@media (min-width: 1200px)
-{
-.fs-10, .fs-4 {
+@media (min-width: 1200px) {
+
+  .fs-10,
+  .fs-4 {
     font-size: 1.5rem !important;
+  }
 }
-}
-.fw500{
+
+.fw500 {
   font-weight: 500;
+}
+
+/* services styling */
+.design-image {
+  width: 625px;
+  height: auto;
+}
+
+.bg-purple {
+  background-color: #252248;
+}
+
+.bg-grey {
+  background-color: #090b14;
+}
+.service {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .service {
+    padding: 0 !important;
+  }
 }

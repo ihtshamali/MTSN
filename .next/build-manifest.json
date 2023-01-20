@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/why-mtsn": [
+    "/services/services": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/why-mtsn.js"
+      "static/chunks/pages/services/services.js"
     ]
   },
   "ampFirstPages": []

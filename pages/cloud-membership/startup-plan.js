@@ -44,4 +44,4 @@ function Startupplan() {
     )
 }
 
-export default Startupplan
+export default Startupplan 
