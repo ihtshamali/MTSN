@@ -47,7 +47,7 @@ function Header() {
               <Link className='text-decoration-none' href="/case-studies">Case Studies</Link>
               </li>
               <li className='ps-5'>
-              <Link className='text-decoration-none' href={'/services/services'}>Services</Link>
+              <Link className='text-decoration-none' href="/services">Services</Link>
               </li>
             </ul>
           </Nav>
