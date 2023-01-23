@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Hero from './components/Herosection/herosection'
 import web from '../public/web3.png'
+import CrossIndustry from './Web3/CrossIndustry'
+import GetExpert from './Web3/GetExpert'
+import SmartContract from './Web3/SmartContract'
 
 function Web3() {
   return (
@@ -24,6 +27,9 @@ function Web3() {
         alttext="web"
         cname="py-5 image-size"
       />
+    <CrossIndustry/>
+    <SmartContract/>
+    <GetExpert/>  
     </>
   )
 }
