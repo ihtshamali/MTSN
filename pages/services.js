@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Hero from './components/Herosection/herosection'
 import Design from './services/services-page/Design'
 import ServicesImg from '/public/services.png'
+import Designimg from "../public/services/design.svg"
+import Consultation from './components/Home/consultation/consultation'
+
 
 function Services() {
   return (
@@ -29,8 +32,9 @@ function Services() {
       <Design sectionclass="py-10 py-lg-20 overflow-hidden service-design position-relative bg-grey"
         rowclass="align-items-md-center justify-content-md-between"
         firstcolclass="col-xl-6 col-md-6"
+        servicesimage="Designimg"
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
-        heading="Design"
+        heading="design"
         paragraph="When it comes to creating engaging products and driving customer interactions,
       UI/UX design is the silver bullet that turns a great idea into a profitable one.
       Discover what an expert-level design team from Renesis can do for your next
@@ -75,12 +79,13 @@ function Services() {
         rowclass="align-items-md-center justify-content-md-between"
         firstcolclass="col-xl-6 col-md-6"
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
-        heading="Blockchain"
-        paragraph="Interested in developing blockchain technology or NFTs? We can help. Our forward-thinking 
-      blockchain development specialists understand the intricacies of this exciting tech. Reach out today 
-      to discover what a handpicked Renesis team can do for you."
+        heading="AI & Machine Learning"
+        paragraph="Artificial intelligence & machine learning already play an outsized role in the 
+        newest, most exciting tech developments and this is only going to become more pronounced 
+        as the years go by. Stay a step ahead with an industry-leading team from Renesis."
       />
 
+      <Consultation/>
     </>
   )
 }

@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/services": "pages/services.js",
-  "/case-studies": "pages/case-studies.js",
-  "/why-mtsn": "pages/why-mtsn.js",
-  "/web3": "pages/web3.js",
-  "/cloud-membership": "pages/cloud-membership.js"
+  "/": "pages/index.js",
+  "/case-studies": "pages/case-studies.js"
 }

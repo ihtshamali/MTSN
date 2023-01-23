@@ -22,7 +22,7 @@ function Home() {
         <Team/>
         <Integrations/>
         <Scalesmarter/>
-        <Consultation/>
+        <Consultation consultationheading="Ready to take your tech to the next level?"/>
 
     </>
   )
