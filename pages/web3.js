@@ -7,6 +7,7 @@ import SmartContract from './Web3/SmartContract'
 import UtilityStudy from './Web3/UtilityStudy'
 import FocusIndustries from './Web3/FocusIndustries'
 import BlockchainTech from './Web3/BlockchainTech'
+import Consultation from "../pages/components/Home/consultation/consultation"
 
 function Web3() {
   return (
@@ -36,6 +37,7 @@ function Web3() {
     <UtilityStudy/>
     <FocusIndustries/>
     <BlockchainTech/>
+    <Consultation consultationheading="Blockchain specialists are available on demand."/>
     </>
   )
 }

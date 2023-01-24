@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Hero from './components/Herosection/herosection'
 import casestudy from '../public/case-studies.png'
 import Consultation from './components/Home/consultation/consultation'
+import Advantage from './case-studies/Advantage'
+import FigSection from './case-studies/FigSection'
 
 function Casestudies() {
   return (
@@ -24,6 +26,8 @@ function Casestudies() {
         alttext="casestudy"
         cname="py-5 image-case-studies"
       />
+      <Advantage/>
+      <FigSection/>
       <Consultation/>
 
     </>
