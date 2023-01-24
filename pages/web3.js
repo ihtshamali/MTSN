@@ -4,6 +4,9 @@ import web from '../public/web3.png'
 import CrossIndustry from './Web3/CrossIndustry'
 import GetExpert from './Web3/GetExpert'
 import SmartContract from './Web3/SmartContract'
+import UtilityStudy from './Web3/UtilityStudy'
+import FocusIndustries from './Web3/FocusIndustries'
+import BlockchainTech from './Web3/BlockchainTech'
 
 function Web3() {
   return (
@@ -30,6 +33,9 @@ function Web3() {
     <CrossIndustry/>
     <SmartContract/>
     <GetExpert/>  
+    <UtilityStudy/>
+    <FocusIndustries/>
+    <BlockchainTech/>
     </>
   )
 }
