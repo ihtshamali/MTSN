@@ -18,10 +18,10 @@ function Cloudmembership() {
             </Head>
             <Hero className="py-5"
             firstcol="col-xxl-7 col-lg-6 col-12"
-             spantext="Access elite talent"
-                headingtitle="Your virtual workspace awaits"
+             spantext="Acquire High-Caliber Skill"
+                headingtitle="Your Digital Workspace is Prepared and Accessible"
                 headingclass="h1tag text-white mb-2"
-                paragraphtext="scale faster with a cloud-based development team from MTSN"
+                paragraphtext="Take Your Development to the Next Level with a Cloud-Based Team from MTSN"
                 btntitle="Book Free Consultation"
                 btncname="btn btn-lg text-decoration-none text-white position-relative at-zindex3"
                 

@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Hero from './components/Herosection/herosection'
 import Cloudmebersip from '../public/cloud-membership.png'
+import Consultation from './components/Home/consultation/consultation'
+import TabsComponent from './Why-MTSN/TabsComponent'
 
 function WhyMTSN() {
   return (
@@ -18,7 +20,8 @@ function WhyMTSN() {
         sizes are facing difficulties hiring world-class development teams that fit within their 
         team dynamic and budget. We created MTSN to increase access and improve affordability."
       />
-
+      <TabsComponent/>
+      <Consultation />
     </>
   )
 }

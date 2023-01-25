@@ -16,14 +16,14 @@ function Startupplan() {
                             />
                         </Col>
                         <Col className="col-md-8 text-white">
-                            <h2 className="mb-4">Startup Plan</h2>
-                            <h3 className="mb-4 fs-4">Cost-effectiveness meets skill, speed, and efficiency.</h3>
+                            <h2 className="mb-4">Initial Business Plan</h2>
+                            <h3 className="mb-4 fs-4">Economical Solution with Skilled, Fast, and Efficient Service</h3>
                             <p className="fs18">
-                                Access the expert support required to get your small and medium-sized projects off the ground.
+                                Gain access to expert support to initiate your small and medium-sized projects.
                             </p>
                             <Row>
                                 <Col className="d-flex flex-column col-lg-8">
-                                    <strong className="d-block fs-5 mb-5">Your cloud team includes:</strong>
+                                    <strong className="d-block fs-5 mb-5">Your cloud-based team comprises of:</strong>
                                     <div className="fs-5 mb-4 mb-lg-7 rt-nav nav">
                                         <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">UI/UX Designer</div>
                                         <div class="mb-4 w-50 float-left position-relative ps-3 nav-item">A Developer</div>
@@ -35,7 +35,7 @@ function Startupplan() {
                                 <Col className="d-flex flex-column col-lg-4">
                                 </Col>
                             </Row>
-                            <Button btntitle="Book Free Consultation"/>
+                            <Button btntitle="Book Free Consultation" />
                         </Col>
                     </Row>
                 </Container>

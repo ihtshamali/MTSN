@@ -744,3 +744,31 @@ figure:hover .at-casestudytitletwo {
   left: 2%;
   opacity: 0;
 }
+
+.w-34{
+  width: 34px;
+}
+.h-34{
+  height: 34px;
+}
+.ms-n13 {
+  margin-left: -3.25rem!important;
+}
+/*  */
+.border-orange{ 
+  border: solid 1px #D96912; 
+}
+.text-orange{
+  color: #D96912; 
+}
+.ui-features .list-group-item:before {
+  left: 0;
+  top: 1px;
+  content: "";
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  background-image: url(../public/why-mtsn/icon-26.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

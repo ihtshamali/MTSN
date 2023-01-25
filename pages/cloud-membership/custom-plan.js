@@ -16,14 +16,14 @@ function Customplan() {
                             />
                         </Col>
                         <Col className="col-md-8 text-white">
-                            <h2 className="mb-4">Custom Plan</h2>
-                            <h3 className="mb-4 fs-4">Your personalized roadmap to a successful product</h3>
+                            <h2 className="mb-4">Personalized Plan</h2>
+                            <h3 className="mb-4 fs-4">Your personal plan for achieving product success</h3>
                             <p className="fs18">
-                                Create your own custom development team using all the talent and resources at our disposal.
+                                Create a unique development team with access to all the talent and resources we offer.
                             </p>
                             <Row>
                                 <Col className="d-flex flex-column col-lg-8">
-                                    <strong className="d-block fs-5 mb-4">Your cloud team includes:</strong>
+                                    <strong className="d-block fs-5 mb-4">Your cloud-based team comprises of:</strong>
                                     <div className="fs-5 mb-4 mb-lg-7 rt-nav nav">
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">Business Manager</div>
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">Full-Stack Developer</div>
@@ -35,7 +35,7 @@ function Customplan() {
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">QA Engineer</div>
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">UI/UX Designer</div>
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">HR Specialist</div>
-                                        
+
                                     </div>
                                 </Col>
                                 <Col className="d-flex flex-column col-lg-4">
