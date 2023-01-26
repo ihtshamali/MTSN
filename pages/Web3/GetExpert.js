@@ -9,7 +9,7 @@ function GetExpert() {
                     <Row className="justify-content-center">
                         <Col className="col-md-8">
                             <h2 className="mb-0 text-center text-white fs40">
-                                Get expert on-demand assistance bringing your important blockchain &amp; NFT projects to life
+                            Get expert-level help as needed to make your vital blockchain and NFT projects a reality.
                             </h2>
                         </Col>
                     </Row>

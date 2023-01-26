@@ -14,8 +14,7 @@ function UtilityStudy() {
                 <div className="overflow-hidden">
                   <h3 className="mb-2 text-white">Utility Study</h3>
                   <p className="mb-0 text-white fs18">
-                    To ensure success, we analyze your requirements and conceptualize potential
-                    frameworks and schemes.
+                    To guarantee success, we evaluate your needs and devise possible frameworks and strategies.
                   </p>
                 </div>
               </div>
@@ -28,8 +27,8 @@ function UtilityStudy() {
                 <div className="overflow-hidden">
                   <h3 className="mb-2 text-white">Auditing & Consulting</h3>
                   <p className="mb-0 text-white fs18">
-                    Through full-service consulting and comprehensive audits, we’ll put
-                    your token or app in a position to thrive.
+                    We will position your token or app for success through comprehensive consulting and audits
+                    services.
                   </p>
                 </div>
               </div>
@@ -42,8 +41,9 @@ function UtilityStudy() {
                 <div className="overflow-hidden">
                   <h3 className="mb-2 text-white">UI/UX Design</h3>
                   <p className="mb-0 text-white fs18">
-                    An engaging, user-friendly design is integral to the success of your tokens and blockchain
-                    apps. That’s why our blockchain development teams always include skilled UI/UX designers.
+                    The design of your tokens and blockchain apps must be user-friendly and engaging in order for
+                    them to be successful. To ensure this, our blockchain development teams include experienced
+                    UI/UX designers.
                   </p>
                 </div>
               </div>
@@ -56,8 +56,8 @@ function UtilityStudy() {
                 <div className="overflow-hidden">
                   <h3 className="mb-2 text-white">Smart Contract Development</h3>
                   <p className="mb-0 text-white fs18">
-                    A Renesis team makes smart contract development and implementation easier,
-                    faster, and more affordable. Discover what our approach to blockchain development can do for you.
+                    Our MTSN team simplifies, speeds up, and lowers the cost of smart contract development and
+                    implementation. Find out how our blockchain development approach can benefit you.
                   </p>
                 </div>
               </div>

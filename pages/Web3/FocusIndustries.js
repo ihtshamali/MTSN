@@ -23,7 +23,7 @@ function FocusIndustries() {
                                 <Image style={{ alignSelf: "center" }} src={RetailImg} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Retail</h3>
                                 <p className="mb-0 text-white fs18">
-                                    Tap into a brand new revenue stream with a custom-developed NFT marketplace.
+                                    Unlock a fresh source of income with a tailor-made NFT marketplace.
                                 </p>
                             </div>
                         </Col>
@@ -33,7 +33,7 @@ function FocusIndustries() {
                                 <Image style={{ alignSelf: "center" }} src={RetailImg} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Art</h3>
                                 <p className="mb-0 text-white fs18">
-                                    Unlock a new revenue stream for your artwork with custom NFT development.
+                                    Create a new source of income for your art by utilizing custom-made NFT development..
                                 </p>
                             </div>
                         </Col>
@@ -43,7 +43,7 @@ function FocusIndustries() {
                                 <Image style={{ alignSelf: "center" }} src={RetailImg} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Music</h3>
                                 <p className="mb-0 text-white fs18">
-                                    NFTs create amazing new possibilities for musicians to connect with listeners.
+                                    NFTs open up incredible new opportunities for musicians to engage with their audience.
                                 </p>
                             </div>
                         </Col>
@@ -53,7 +53,7 @@ function FocusIndustries() {
                                 <Image style={{ alignSelf: "center" }} src={RetailImg} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Health Care</h3>
                                 <p className="mb-0 text-white fs18">
-                                    Blockchain apps protect the personal info of your patients, staff, and vendors.
+                                    Blockchain applications safeguard the personal information of patients, staff, and vendors.
                                 </p>
                             </div>
                         </Col>
@@ -63,7 +63,8 @@ function FocusIndustries() {
                                 <Image style={{ alignSelf: "center" }} src={RetailImg} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Banking</h3>
                                 <p className="mb-0 text-white fs18">
-                                    Finance-sector leaders rely on blockchain-enabled apps – is your bank next?
+                                    Leaders in the finance industry trust blockchain-powered apps - is your bank next in line to do
+                                    the same?
                                 </p>
                             </div>
                         </Col>
@@ -73,7 +74,8 @@ function FocusIndustries() {
                                 <Image style={{ alignSelf: "center" }} src={RetailImg} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Sports</h3>
                                 <p className="mb-0 text-white fs18">
-                                    Leverage blockchain technology to connect with your fans and build support.
+                                    Use blockchain technology to establish a connection with your fanbase and strengthen their
+                                    support.
                                 </p>
                             </div>
                         </Col>
@@ -83,7 +85,7 @@ function FocusIndustries() {
                                 <Image style={{ alignSelf: "center" }} src={RetailImg} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Games</h3>
                                 <p className="mb-0 text-white fs18">
-                                    Gain a competitive advantage by incorporating blockchain into your games.
+                                    Stay ahead of the competition by integrating blockchain technology into your games.
                                 </p>
                             </div>
                         </Col>
@@ -93,7 +95,7 @@ function FocusIndustries() {
                                 <Image style={{ alignSelf: "center" }} src={RetailImg} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Real Estate</h3>
                                 <p className="mb-0 text-white fs18">
-                                    Smart contracts bring speed and security to your most important transactions
+                                    Smart contracts enhance the speed and security of your vital transactions.
                                 </p>
                             </div>
                         </Col>

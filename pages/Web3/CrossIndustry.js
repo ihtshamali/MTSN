@@ -5,12 +5,12 @@ function CrossIndustry() {
         <>
             <section className="text-white py-10 py-xl-20">
                 <Container>
-                    <h2 className="mb-4 fs40 text-center">Cross-Industry Expertise, Right at Your Fingertips</h2>
+                    <h2 className="mb-4 fs40 text-center">Expertise Across Industries, Easily Accessible</h2>
                     <p class="mb-0 fs18 text-center">
-                        From smart contracts and decentralized apps to customer-facing NFTs, blockchain has
-                        been one of the most exciting tech innovations in years. Renesis makes it easier,
-                        faster, and more affordable for your business to access elite blockchain development
-                        talent with industry-specific experience and knowledge.
+                        Blockchain technology, with its smart contracts, decentralized apps, and customer-facing
+                        NFTs, has been a highly intriguing innovation in recent years. MTSN simplifies the process of
+                        obtaining elite blockchain development talent, who possess industry-specific experience and
+                        knowledge, for your business, making it faster and more cost-effective.
                     </p>
                 </Container>
             </section>
