@@ -11,7 +11,7 @@ function TabsComponent() {
       <Container>
         <Tabs defaultActiveKey="profile"
           id="justify-tab-example"
-          className="mb-5 rounded bg-dark text-white justify-content-around shadow position-relative"
+          className="custom-tabs mb-5 rounded bg-grey text-white justify-content-around shadow position-relative"
           justify>
           <Tab eventKey="why" title="Why">
             <WhyTab/>
