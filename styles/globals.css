@@ -266,7 +266,7 @@ li {
   }
 
   .mobile-img {
-    width: 350px;
+    width: 320px;
     height: 243px;
   }
 
@@ -836,7 +836,7 @@ figure:hover .at-casestudytitletwo {
   border-radius: 10px 10px 0 0;
   background-color: #D96912;
 }
-.bg-grey{
+.bg-grey-lite{
   background-color: #A7A7A7;
 }
 .custom-tabs{
@@ -863,7 +863,10 @@ figure:hover .at-casestudytitletwo {
   width: 55px;
   height: 80%;
   position: absolute;
-  border-right: 1px dashed #4353ff;
+  border-right: 1px dashed #D96912;
+}
+.border-orange{
+  border: 1px solid #D96912 !important;
 }
 .bg-orange{
   background: rgba(227, 175, 135, 0.62);
@@ -871,6 +874,11 @@ figure:hover .at-casestudytitletwo {
 .bg-purple-light{
   background: #6A6787;
 }
-.bg-grey{
+.bg-grey-lite{
   background: #B7B6B6;
+}
+
+.mt-n6r {
+  margin-top: -7.5rem;
+  margin-right: 0.5rem;
 }

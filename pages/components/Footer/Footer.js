@@ -38,9 +38,9 @@ function Footer() {
                                 <div className="d-flex flex-column navCol col">
                                     <strong className="text-white fw-medium pb-3 mb-3 border-bottom border-200 fs-8 text-600">Company</strong>
                                     <ul className="list-unstyled flex-column nav text-white">
-                                        <li className="mb-2 nav-item">
+                                        {/* <li className="mb-2 nav-item">
                                             <Link className="text-700 text-decoration-none text-white" href="/case-studies">Case Studies</Link>
-                                        </li>
+                                        </li> */}
                                         <li className="mb-2 nav-item">
                                             <Link className="text-700 text-decoration-none text-white" href="/cloud-membership">Cloud Membership</Link>
                                         </li>
@@ -54,7 +54,7 @@ function Footer() {
                                             <Link className="text-700 text-decoration-none text-white" href="/blog">Blog</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/contact-us">Contact Us</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="https://calendly.com/mtsn" target={"blank"}>Contact Us</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -62,17 +62,17 @@ function Footer() {
                                     <strong className="text-white fw-medium pb-3 mb-3 border-bottom border-200 fs-8 text-600">Why MTSN</strong>
                                     <ul className="list-unstyled flex-column nav text-white">
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Why it Works</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/why-mtsn">Why MTSN</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">What MTSN Dose</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/why-mtsn">What MTSN Does</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">How MTSN Works</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/why-mtsn">How MTSN Works</Link>
                                         </li>
-                                        <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Testimonisls</Link>
-                                        </li>
+                                        {/* <li className="mb-2 nav-item">
+                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Testimonials</Link>
+                                        </li> */}
                                     </ul>
                                 </div>
 
@@ -80,23 +80,23 @@ function Footer() {
                                     <strong className="text-white fw-medium pb-3 mb-3 border-bottom border-200 fs-8 text-600">Services</strong>
                                     <ul className="list-unstyled flex-column nav text-white">
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Design</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/">Design</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Web</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/">Web</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Mobile</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/">Mobile</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">AI</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/">AI</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/case-studies">Blockchain</Link>
+                                            <Link className="text-700 text-decoration-none text-white" href="/">Blockchain</Link>
                                         </li>
-                                        <li className="mb-2 nav-item">
+                                        {/* <li className="mb-2 nav-item">
                                             <Link className="text-700 text-decoration-none text-white" href="/case-studies">Case Studies</Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
 

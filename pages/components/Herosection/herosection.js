@@ -44,7 +44,7 @@ function Hero(props) {
                                         {props.paragraphtext}
                                     </p>
                                     <Link style={{ background: "linear-gradient(90.43deg, #E16C12 3.69%, #8E440C 59.05%)" }}
-                                        href="/contact-us" role="button" tabindex="0"
+                                        href="https://calendly.com/mtsn" target={"blank"} role="button" tabindex="0"
                                         className={props.btncname}>
                                         {props.btntitle}
                                     </Link>

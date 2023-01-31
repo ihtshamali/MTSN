@@ -43,9 +43,9 @@ function Header() {
               <li className='ps-5'>
               <Link className='text-decoration-none' href="/why-mtsn">Why MTSN</Link>
               </li>
-              <li className='ps-5'>
+              {/* <li className='ps-5'>
               <Link className='text-decoration-none' href="/case-studies">Case Studies</Link>
-              </li>
+              </li> */}
               <li className='ps-5'>
               <Link className='text-decoration-none' href="/services">Services</Link>
               </li>

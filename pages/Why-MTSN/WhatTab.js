@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
 import LetUsKnow from "../../public/why-mtsn/let-us-know.svg"
+import ConnectVirtualTeam from "../../public/why-mtsn/connect-with-virtual-team.svg"
+import LevelUp from "../../public/why-mtsn/level-up.svg"
+import Sleep from "../../public/why-mtsn/sleep-easy.svg"
 
 function WhatTab() {
     return (
@@ -32,7 +35,7 @@ function WhatTab() {
 
                 <Row className="align-items-center py-4 py-lg-5 flex-row-reverse">
                     <Col className="col-md-5 col-12">
-                        <Image src={LetUsKnow} />
+                        <Image src={ConnectVirtualTeam} />
                     </Col>
                     <Col className="ps-5 pt-10 pt-md-0 col-md-7 col-12">
                         <h2 className="fs40 d-flex align-items-center ms-n13">
@@ -55,8 +58,8 @@ function WhatTab() {
                 </Row>
 
                 <Row className="align-items-center py-4 py-lg-5 flex-row-reverse">
-                    <Col className="col-md-5 col-12">
-                        <Image src={LetUsKnow} />
+                    <Col className="col-md-5 col-12 text-center">
+                        <Image src={LevelUp} />
                     </Col>
                     <Col className="ps-5 pt-10 pt-md-0 col-md-7 col-12">
                         <h2 className="fs40 d-flex align-items-center ms-n13">
@@ -80,7 +83,7 @@ function WhatTab() {
 
                 <Row className="align-items-center py-4 py-lg-5 flex-row-reverse">
                     <Col className="col-md-5 col-12">
-                        <Image src={LetUsKnow} />
+                        <Image src={Sleep} />
                     </Col>
                     <Col className="ps-5 pt-10 pt-md-0 col-md-7 col-12">
                         <h2 className="fs40 d-flex align-items-center ms-n13">

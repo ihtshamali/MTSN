@@ -36,9 +36,9 @@ function Services() {
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
         heading="design"
         paragraph="When it comes to creating engaging products and driving customer interactions,
-      UI/UX design is the silver bullet that turns a great idea into a profitable one.
-      Discover what an expert-level design team from Renesis can do for your next
-      project today."
+        UI/UX design is the silver bullet that turns a great idea into a profitable one.
+        Discover what an expert-level design team from MTSN can do for your next
+        project today."
       />
 
       {/* Web Development */}
@@ -48,7 +48,7 @@ function Services() {
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
         heading="Web Development"
         paragraph="From simple websites to complex, custom software, web development plays an 
-      outsized role in the success of your company. Renesis makes it easy to build professional 
+      outsized role in the success of your company. MTSN makes it easy to build professional 
       teams for your organization’s cloud development ecosystem."
       />
 
@@ -60,7 +60,7 @@ function Services() {
         heading="Blockchain"
         paragraph="Interested in developing blockchain technology or NFTs? We can help. Our forward-thinking 
       blockchain development specialists understand the intricacies of this exciting tech. Reach out today 
-      to discover what a handpicked Renesis team can do for you."
+      to discover what a handpicked MTSN team can do for you."
       />
 
       {/* Mobile Development */}
@@ -70,7 +70,7 @@ function Services() {
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
         heading="Web Development"
         paragraph="From simple websites to complex, custom software, web development plays an 
-      outsized role in the success of your company. Renesis makes it easy to build professional 
+      outsized role in the success of your company. MTSN makes it easy to build professional 
       teams for your organization’s cloud development ecosystem."
       />
 
@@ -82,10 +82,10 @@ function Services() {
         heading="AI & Machine Learning"
         paragraph="Artificial intelligence & machine learning already play an outsized role in the 
         newest, most exciting tech developments and this is only going to become more pronounced 
-        as the years go by. Stay a step ahead with an industry-leading team from Renesis."
+        as the years go by. Stay a step ahead with an industry-leading team from MTSN."
       />
 
-      <Consultation/>
+      <Consultation />
     </>
   )
 }

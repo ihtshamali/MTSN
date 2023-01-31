@@ -128,7 +128,7 @@ function Services() {
                                         </li>
                                     </ul>
                                     <Link className='text-white text-decoration-none' href={'/services/mobile-development'}>View Work<span className='arrow-right mt-1 ms-2'></span></Link>
-                                    <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 mt-n8r'>
+                                    <div className='d-flex align-items-end justify-content-end me-n30 mb-n10 mt-n30 mb-xxl-0 me-xxl-n20 mt-n6r'>
                                         <Image src={mobile}
                                             alt="mobile"
                                             className='d-none d-lg-block overflow-hidden mobile-img'
