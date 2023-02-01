@@ -6,7 +6,7 @@ import Button from "../../pages/components/Button/Button"
 function Enterpriseplan() {
     return (
         <>
-            <section style={{ backgroundColor: "#0E1120" }} className="py-10 py-lg-20 overflow-hidden position-relative plan">
+            <section id="enterprise-plan" style={{ backgroundColor: "#0E1120" }} className="py-10 py-lg-20 overflow-hidden position-relative plan">
                 <Container>
                     <Row className="align-items-md-center justify-content-md-between flex-row-reverse">
                         <Col className="startup-bg col-md-3">

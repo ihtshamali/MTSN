@@ -23,7 +23,7 @@ function Packages() {
                     </p>
                   </div>
                   <div className="d-grid gap-2">
-                    <Link href="/cloud-membership" role="button" tabindex="0" className="btn btn-call btn-lg">Learn More</Link>
+                    <Link href="/cloud-membership#startup-plan" role="button" tabindex="0" className="btn btn-call btn-lg">Learn More</Link>
 
                   </div>
                 </div>
@@ -40,7 +40,7 @@ function Packages() {
                     </p>
                   </div>
                   <div className="d-grid gap-2">
-                    <Link href="/cloud-membership" role="button" tabindex="0" className="btn btn-call btn-lg">Learn More</Link>
+                    <Link href="/cloud-membership#enterprise-plan" role="button" tabindex="0" className="btn btn-call btn-lg">Learn More</Link>
                   </div>
                 </div>
               </div>
@@ -56,7 +56,7 @@ function Packages() {
                     </p>
                   </div>
                   <div className="d-grid gap-2">
-                    <Link href="/cloud-membership" role="button" tabindex="0" className="btn btn-call btn-lg">Learn More</Link>
+                    <Link href="/cloud-membership#customised-plan" role="button" tabindex="0" className="btn btn-call btn-lg">Learn More</Link>
                   </div>
                 </div>
               </div>

@@ -47,7 +47,7 @@ function Features() {
                                 <div className="feature col-xxl-5 col-lg-5 col-md-9 col-12">
                                     <h3 className="fs40 mb-4 mb-xl-8">Prepare to Launch</h3>
                                     <p className="fs18 mb-0">Here’s where the fun starts. During the launch prep
-                                        stage, your dedicated Renesis team will deliver your custom-developed
+                                        stage, your dedicated MTSN team will deliver your custom-developed
                                         project so that you can take it to market. If there are any questions
                                         or concerns, we will help smooth things out to facilitate a stress-free launch.
                                     </p>

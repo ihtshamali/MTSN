@@ -6,7 +6,7 @@ import Button from "../../pages/components/Button/Button"
 function Startupplan() {
     return (
         <>
-            <section className="py-lg-20 overflow-hidden position-relative">
+            <section id="startup-plan" className="py-lg-20 overflow-hidden position-relative">
                 <Container>
                     <Row className="align-items-md-center justify-content-md-between">
                         <Col className="startup-bg col-md-3">

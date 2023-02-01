@@ -882,3 +882,10 @@ figure:hover .at-casestudytitletwo {
   margin-top: -7.5rem;
   margin-right: 0.5rem;
 }
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: right !important;
+}
+}
