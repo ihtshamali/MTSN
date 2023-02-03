@@ -901,6 +901,11 @@ figure:hover .at-casestudytitletwo {
     display: contents !important;
     margin-bottom: 0 !important;
 }
+.member-image{
+  width: 430px;
+    height: auto;
+    margin: auto;
+}
 }
 .navbar-toggler-icon {
     background-image: url('../public/hamburger.svg') !important;

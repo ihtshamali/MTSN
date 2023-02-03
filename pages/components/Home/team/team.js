@@ -26,7 +26,7 @@ function Team() {
                         who thrive on challenges. We have the privilege of assembling the best team
                         for each project.
                     </p>
-                    <Image src={Member}
+                    <Image className="member-image" src={Member}
                         alt="Members" />
                 </Container>
             </section>
