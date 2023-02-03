@@ -7,6 +7,25 @@ import Logo from '../../../public/logo.png'
 function Footer() {
     return (
         <>
+            <style jsx>{`
+        .navCol {
+            flex: auto;
+            width: 50%;
+        }
+        @media (min-width: 992px){
+        .navCol {
+            width: auto;
+            flex: 1 1 auto;
+        }
+        }
+        @media (min-width: 768px) and (max-width:991px) {
+        .navCol {
+            width: 33.33%;
+        }
+        }
+        `}
+
+            </style>
             <footer className="footer py-5 pt-lg-13 pb-lg-16 text-700 fs-7">
                 <Container>
                     <Row>
@@ -46,9 +65,6 @@ function Footer() {
                                         </li>
                                         <li className="mb-2 nav-item">
                                             <Link className="text-700 text-decoration-none text-white" href="/services">Services</Link>
-                                        </li>
-                                        <li className="mb-2 nav-item">
-                                            <Link className="text-700 text-decoration-none text-white" href="/careers">Careers</Link>
                                         </li>
                                         <li className="mb-2 nav-item">
                                             <Link className="text-700 text-decoration-none text-white" href="/blog">Blog</Link>

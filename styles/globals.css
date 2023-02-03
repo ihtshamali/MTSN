@@ -288,6 +288,7 @@ li {
 
 
 /* membership styling */
+@media(min-width: 767px){
 
 .adoptDocker:before {
   width: 40px;
@@ -339,6 +340,7 @@ li {
 .adoptDocker>div:last-child {
   border-left: 1px solid #9C9999;
 }
+}
 
 .card-background {
   background: linear-gradient(164.4deg, rgba(255, 255, 255, 0.4) 33.03%, rgba(255, 255, 255, 0.1) 89.09%);
@@ -353,6 +355,11 @@ li {
 
 .integrationList li {
   width: 33.33%;
+}
+@media(max-width: 767px){
+  .integrationList li {
+    width: 50%;
+  }
 }
 
 .justify-content-md-between {
@@ -888,4 +895,13 @@ figure:hover .at-casestudytitletwo {
     flex-basis: auto;
     justify-content: right !important;
 }
+}
+@media(max-width:767px){
+  .inline-list {
+    display: contents !important;
+    margin-bottom: 0 !important;
+}
+}
+.navbar-toggler-icon {
+    background-image: url('../public/hamburger.svg') !important;
 }

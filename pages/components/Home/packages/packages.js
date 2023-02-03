@@ -9,12 +9,12 @@ function Packages() {
   return (
     <>
       <section className='py-5'>
-        <Container>
+        <Container fluid="lg">
           <h2 className="px-4 px-lg-0 mb-5 text-center text-white">Our Packages</h2>
-          <Row>
-            <Col>
+          <Row className="d-md-flex">
+            <Col className="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
               <div className="d-flex align-content-stretch mb-4 mb-xxl-0 text-center">
-                <div className="card-background membership text-700 fs-10 p-5 p-sm-6 rounded-20 d-flex flex-column flex-grow-1">
+                <div className="card-background membership text-700 fs-10 p-4 p-sm-3 rounded-20 d-flex flex-column flex-grow-1">
                   <div className="flex-grow-1">
                     <Image src={Startup} alt={Startup} width={75} />
                     <h3 style={{ color: 'rgba(217, 217, 217, 1)' }} className="text-center my-4">Startup Plan</h3>
@@ -29,9 +29,9 @@ function Packages() {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col className="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
               <div className="d-flex align-content-stretch mb-4 mb-xxl-0 text-center">
-                <div className="card-background membership text-700 fs-10 p-5 p-sm-6 rounded-20 d-flex flex-column flex-grow-1">
+                <div className="card-background membership text-700 fs-10 p-4 p-sm-3 rounded-20 d-flex flex-column flex-grow-1">
                   <div className="flex-grow-1">
                     <Image src={Enterprise} alt={Enterprise} width={75} />
                     <h3 style={{ color: 'rgba(217, 217, 217, 1)' }} className="text-center my-4">Enterprise Plan</h3>
@@ -45,9 +45,9 @@ function Packages() {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col className="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
               <div className="d-flex align-content-stretch mb-4 mb-xxl-0 text-center">
-                <div className="card-background membership text-700 fs-10 p-5 p-sm-6 rounded-20 d-flex flex-column flex-grow-1">
+                <div className="card-background membership text-700 fs-10 p-4 p-sm-3 rounded-20 d-flex flex-column flex-grow-1">
                   <div className="flex-grow-1">
                     <Image src={Custom} alt={Custom} width={75} />
                     <h3 style={{ color: 'rgba(217, 217, 217, 1)' }} className="text-center my-4">Custom Plan </h3>

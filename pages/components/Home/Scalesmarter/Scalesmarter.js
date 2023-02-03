@@ -31,7 +31,7 @@ function Scalesmarter() {
                 </Container>
 
                 <Container className='pb-3 pt-5 pt-lg-11 pb-lg-4'>
-                    <div className='d-none d-md-flex flex-wrap'>
+                    <div className='d-md-flex flex-wrap'>
                         {/* 1 */}
                         <div className="p-9 d-flex flex-column align-content-stretch position-relative col-lg-3 col-md-6 col-12">
                             <div className='bg-100 text-white px-4 py-5'>
@@ -81,7 +81,7 @@ function Scalesmarter() {
                             </div>
                         </div>
                     </div>
-                    <div className='d-none d-md-flex flex-wrap'>
+                    <div className='d-md-flex flex-wrap'>
                         {/* 5 */}
                         <div className="p-9 d-flex flex-column align-content-stretch position-relative col-lg-3 col-md-6 col-12">
                             <div className='bg-100 text-white  px-4 py-5'>
