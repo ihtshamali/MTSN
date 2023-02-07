@@ -17,10 +17,10 @@ function TabsComponent() {
             <WhyTab/>
           </Tab>
           <Tab eventKey="how" title="How">
-            <HowTab/>
+            <WhatTab/>
           </Tab>
           <Tab eventKey="what" title="What">
-            <WhatTab/>
+            <HowTab/>
           </Tab>
 
         </Tabs>

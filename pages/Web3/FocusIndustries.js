@@ -25,7 +25,7 @@ function FocusIndustries() {
                     </Row>
 
                     <Row className="justify-content-center text-center">
-                        <Col className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
+                        <div className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
                             <div className="p-4 rounded-4 d-flex flex-column">
                                 <Image style={{ alignSelf: "center" }} src={Retail} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Retail</h3>
@@ -33,9 +33,9 @@ function FocusIndustries() {
                                     Unlock a fresh source of income with a tailor-made NFT marketplace.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
+                        <div className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
                             <div className="p-4 rounded-4 d-flex flex-column">
                                 <Image style={{ alignSelf: "center" }} src={Art} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Art</h3>
@@ -43,9 +43,9 @@ function FocusIndustries() {
                                     Create a new source of income for your art by utilizing custom-made NFT development..
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
+                        <div className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
                             <div className="p-4 rounded-4 d-flex flex-column">
                                 <Image style={{ alignSelf: "center" }} src={Music} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Music</h3>
@@ -53,9 +53,9 @@ function FocusIndustries() {
                                     NFTs open up incredible new opportunities for musicians to engage with their audience.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
+                        <div className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
                             <div className="p-4 rounded-4 d-flex flex-column">
                                 <Image style={{ alignSelf: "center" }} src={Health} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Health Care</h3>
@@ -63,9 +63,9 @@ function FocusIndustries() {
                                     Blockchain applications safeguard the personal information of patients, staff, and vendors.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
+                        <div className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
                             <div className="p-4 rounded-4 d-flex flex-column">
                                 <Image style={{ alignSelf: "center" }} src={Banking} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Banking</h3>
@@ -74,9 +74,9 @@ function FocusIndustries() {
                                     the same?
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
+                        <div className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
                             <div className="p-4 rounded-4 d-flex flex-column">
                                 <Image style={{ alignSelf: "center" }} src={Sports} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Sports</h3>
@@ -85,9 +85,9 @@ function FocusIndustries() {
                                     support.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
+                        <div className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
                             <div className="p-4 rounded-4 d-flex flex-column">
                                 <Image style={{ alignSelf: "center" }} src={Games} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Games</h3>
@@ -95,9 +95,9 @@ function FocusIndustries() {
                                     Stay ahead of the competition by integrating blockchain technology into your games.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
+                        <div className="mb-3 mb-lg-4 d-md-flex perks col-xl-3 col-lg-4 col-md-6">
                             <div className="p-4 rounded-4 d-flex flex-column">
                                 <Image style={{ alignSelf: "center" }} src={RealEstate} width={50} height={50} />
                                 <h3 className="fs-4 fw-normal text-white my-4">Real Estate</h3>
@@ -105,7 +105,7 @@ function FocusIndustries() {
                                     Smart contracts enhance the speed and security of your vital transactions.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
                     </Row>
                 </Container>

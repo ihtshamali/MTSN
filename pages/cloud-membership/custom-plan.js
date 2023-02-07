@@ -6,23 +6,23 @@ import Button from "../../pages/components/Button/Button"
 function Customplan() {
     return (
         <>
-            <section id="customised-plan" className="py-lg-20 overflow-hidden position-relative">
+            <section id="customised-plan" className="py-4 overflow-hidden position-relative">
                 <Container>
                     <Row className="align-items-md-center justify-content-md-between">
-                        <Col className="startup-bg col-md-3">
+                        <div className="startup-bg col-md-3">
                             <Image src={img3}
                                 alt="cloud-img-2"
                                 className="cloud-img-2"
                             />
-                        </Col>
-                        <Col className="col-md-8 text-white">
+                        </div>
+                        <div className="col-md-8 text-white">
                             <h2 className="mb-4">Personalized Plan</h2>
                             <h3 className="mb-4 fs-4">Your personal plan for achieving product success</h3>
                             <p className="fs18">
                                 Create a unique development team with access to all the talent and resources we offer.
                             </p>
                             <Row>
-                                <Col className="d-flex flex-column col-lg-8">
+                                <div className="d-flex flex-column col-lg-8">
                                     <strong className="d-block fs-5 mb-4">Your cloud-based team comprises of:</strong>
                                     <div className="fs-5 mb-4 mb-lg-7 rt-nav nav">
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">Business Manager</div>
@@ -37,18 +37,18 @@ function Customplan() {
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">HR Specialist</div>
 
                                     </div>
-                                </Col>
-                                <Col className="d-flex flex-column col-lg-4">
+                                </div>
+                                <div className="d-flex flex-column col-lg-4">
                                     <strong className="d-block fs-5 mb-4">Exclusive Benefits:</strong>
                                     <div className="fs-5 mb-4 mb-lg-7 rt-nav nav">
                                         <div className="mb-4 float-left position-relative ps-3 nav-item">Reduced Hourly Rates</div>
                                         <div className="mb-4 float-left position-relative ps-3 nav-item">Project Management Suite</div>
                                         <div className="mb-4 float-left position-relative ps-3 nav-item">60 Hours of UI/UX and Front-end</div>
                                     </div>
-                                </Col>
+                                </div>
                             </Row>
                             <Button btntitle="Book Free Consultation" />
-                        </Col>
+                        </div>
                     </Row>
                 </Container>
             </section>

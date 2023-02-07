@@ -906,7 +906,48 @@ figure:hover .at-casestudytitletwo {
     height: auto;
     margin: auto;
 }
+.cloud-img-2 {
+  width: 100px;
+  height: auto;
+  padding-bottom: 20px;
+}
+.fs40 {
+  font-size: 32px;
+}
+.SmartContract{
+  width: 360px;
+  height: 400px;
+}
+.Hyperledger{
+  width: 300px;
+  height: 130px;
+}
+.design-image {
+  width: 360px;
+  height: 270px;
+}
+.table-border:before {
+  left: 0;
+  top: 70px;
+  content: "";
+  width: 55px;
+  height: 80%;
+  position: absolute;
+  border-right: 0px dashed #D96912;
+}
+.fs-7 {
+  font-size: .875rem!important;
+}
+.ConnectVirtual{
+  width: 360px;
+  height: 198px;
+}
 }
 .navbar-toggler-icon {
     background-image: url('../public/hamburger.svg') !important;
+}
+
+.slick-slide {
+  padding:10px;
+  text-align:center;
 }

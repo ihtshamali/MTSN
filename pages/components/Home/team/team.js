@@ -5,7 +5,7 @@ import Member from '../team/members.png'
 function Team() {
     return (
         <>
-        <style jsx>{`
+            <style jsx>{`
           .px-xxl-95{
             padding-right: 9.5rem;
             padding-left: 9.5rem;

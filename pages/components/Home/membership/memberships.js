@@ -43,12 +43,12 @@ function Memberships() {
                         </Col>
                         <Col className='px-4 pb-4 pb-md-0'>
                         <div className='text-center'>
-                                <h4 className="fs28 mb-5 mb-md-12 text-white">Development is challenging</h4>
+                                <h4 className="fs28 mb-5 mb-md-12 text-white">MTSN makes things easier</h4>
                                 <ul style={{ color: 'rgba(156, 153, 153, 1)' }} className="fs18 list-unstyled mb-0">
-                                    <li>MTSN teams operate fully remotely to reduce expenses for clients.</li>
-                                    <li>Our experienced developers and designers have a proven track </li>
-                                    <li>record of delivering high-quality, cost-effective</li>
-                                    <li>results through our cloud-based platform.</li>
+                                    <li>Renesis teams work 100% remote to cut costs for our clients</li>
+                                    <li>All Renesis developers and designers have a track record of success </li>
+                                    <li>We provide the ultimate blend of qualified tech talent and affordability</li>
+                                    <li>Our cloud-based teams deliver high-quality, high-ROI results</li>
                                 </ul>
                             </div>
                         

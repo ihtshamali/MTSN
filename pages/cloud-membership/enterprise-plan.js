@@ -6,16 +6,16 @@ import Button from "../../pages/components/Button/Button"
 function Enterpriseplan() {
     return (
         <>
-            <section id="enterprise-plan" style={{ backgroundColor: "#0E1120" }} className="py-10 py-lg-20 overflow-hidden position-relative plan">
+            <section id="enterprise-plan" style={{ backgroundColor: "#0E1120" }} className="py-4 overflow-hidden position-relative plan">
                 <Container>
                     <Row className="align-items-md-center justify-content-md-between flex-row-reverse">
-                        <Col className="startup-bg col-md-3">
+                        <div className="startup-bg col-md-3">
                             <Image src={img4}
                                 alt="cloud-img-2"
                                 className="cloud-img-2"
                             />
-                        </Col>
-                        <Col className="col-md-8 text-white">
+                        </div>
+                        <div className="col-md-8 text-white">
                             <h2 className="mb-4 fs40">Corporate Plan</h2>
                             <h3 className="mb-4 fs-4">Top-notch professionals for challenging development initiatives</h3>
                             <p className="fs18 mb-4">
@@ -23,15 +23,15 @@ function Enterpriseplan() {
                                 high-end cloud development package
                             </p>
                             <Row>
-                                <Col className="d-flex flex-column col-lg-4">
+                                <div className="d-flex flex-column col-lg-4">
                                     <strong className="d-block fs-5 mb-4">Exclusive Perks:</strong>
                                     <div className="fs-5 mb-4 mb-lg-7 rt-nav nav">
                                         <div className="mb-4 float-left position-relative ps-3 nav-item">Reduced Hourly Rates</div>
                                         <div className="mb-4 float-left position-relative ps-3 nav-item">Project Management Suite</div>
                                         <div className="mb-4 float-left position-relative ps-3 nav-item">60 Hours of UI/UX and Front-end</div>
                                     </div>
-                                </Col>
-                                <Col className="d-flex flex-column col-lg-8">
+                                </div>
+                                <div className="d-flex flex-column col-lg-8">
                                     <strong className="d-block fs-5 mb-4">Your cloud-based team comprises of:</strong>
                                     <div className="fs-5 mb-5 mb-lg-7 rt-nav nav">
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">Project Manager</div>
@@ -42,10 +42,10 @@ function Enterpriseplan() {
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">Android Developer</div>
                                         <div className="mb-4 w-50 float-left position-relative ps-4 nav-item">QA Engineer</div>
                                     </div>
-                                </Col>
+                                </div>
                             </Row>
                             <Button btntitle="Book Free Consultation" />
-                        </Col>
+                        </div>
                     </Row>
                 </Container>
             </section>

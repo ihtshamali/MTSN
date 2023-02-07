@@ -13,7 +13,7 @@ function HowTab() {
                         </h2>
                     </Col>
                     <Row className="ui-features justify-content-between">
-                        <Col className="col-xl-5 col-md-6">
+                        <div className="col-xl-5 col-md-6">
                             <div className="list-group-item p-0 pb-5 ps-5">
                                 <strong className="d-block fs18 fw500 pb-2">Flexible Deployment</strong>
                                 <p class="mb-0">It doesn’t matter what size your company is or what type of
@@ -22,9 +22,9 @@ function HowTab() {
                                     company and thriving in any environment.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="col-xl-5 col-md-6">
+                        <div className="col-xl-5 col-md-6">
                             <div className="list-group-item p-0 pb-5 ps-5">
                                 <strong className="d-block fs18 fw500 pb-2">100% Remote</strong>
                                 <p class="mb-0">
@@ -34,9 +34,9 @@ function HowTab() {
                                     for your next project today.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="col-xl-5 col-md-6">
+                        <div className="col-xl-5 col-md-6">
                             <div className="list-group-item p-0 pb-5 ps-5">
                                 <strong className="d-block fs18 fw500 pb-2">Full Integration</strong>
                                 <p class="mb-0">
@@ -46,9 +46,9 @@ function HowTab() {
                                     operations just let us know within a week and we’ll source a better match.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
 
-                        <Col className="col-xl-5 col-md-6">
+                        <div className="col-xl-5 col-md-6">
                             <div className="list-group-item p-0 pb-5 ps-5">
                                 <strong className="d-block fs18 fw500 pb-2">Skill Augmentation</strong>
                                 <p class="mb-0">
@@ -58,7 +58,7 @@ function HowTab() {
                                     projects to new heights.
                                 </p>
                             </div>
-                        </Col>
+                        </div>
                     </Row>
 
                 </Container>

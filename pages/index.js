@@ -1,8 +1,10 @@
-import Head from 'next/head'
-import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
-import 'bootstrap/dist/css/bootstrap.css'
-import Homepage from '../pages/Home'
+import Head from 'next/head';
+import { Inter } from '@next/font/google';
+import styles from '../styles/Home.module.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import Homepage from '../pages/Home';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 const inter = Inter({ subsets: ['latin'] })

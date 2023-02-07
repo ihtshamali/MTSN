@@ -10,7 +10,7 @@ function Section1cloudmembership() {
                     <Row className="text-white align-items-md-center justify-content-md-between">
                         <Col className="col-lg-5 col-md-6">
                             <h2 className="mb-4 fs40">Acquire Development Teams On-Demand</h2>
-                            <p className="m-0 fs18">
+                            <p className="m-0 fs18 pb-sm-3">
                                 MTSN provides you with top-notch expertise through their cloud-based development
                                 teams who possess the skills to successfully complete your projects. Experience the benefits of
                                 working with our thoroughly vetted developers, designers, project managers, and HR

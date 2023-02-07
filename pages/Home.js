@@ -8,6 +8,7 @@ import Team from './components/Home/team/team'
 import Integrations from './components/Home/integrations/Integrations'
 import Consultation from './components/Home/consultation/consultation'
 import Scalesmarter from './components/Home/Scalesmarter/Scalesmarter'
+import CenterMode from './components/Home/services/ser-slider'
 
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
         <Integrations/>
         <Scalesmarter/>
         <Consultation consultationheading="Ready to take your tech to the next level?"/>
+        <CenterMode/>
 
     </>
   )

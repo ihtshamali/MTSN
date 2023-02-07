@@ -30,6 +30,11 @@ function WhyTab() {
                   <span className="rounded-circle border-orange text-orange bg-white d-inline-block vertical-middle fs-9 w-34 h-34 me-4 text-center position-relative z-index-2">1</span>
                   <span className="d-inline-block vertical-middle">Backup Resources</span>
                 </Col>
+                <div className="border-transparent py-3 px-2  bg-grey-lite d-lg-none col-lg-3 col-4">MTSN</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Typical Employement</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Virtual Platforms</div>
+
+
                 <Col className="border-transparent py-4 px-4 bg-orange bg-opacity-10 col-lg-3 col-4">
                   <Image src={Check} width={30} height={30} />
                 </Col>
@@ -46,6 +51,10 @@ function WhyTab() {
                   <span className="rounded-circle border-orange text-orange bg-white d-inline-block vertical-middle fs-9 w-34 h-34 me-4 text-center position-relative z-index-2">2</span>
                   <span className="d-inline-block vertical-middle">Work Demos</span>
                 </Col>
+
+                <div className="border-transparent py-3 px-2  bg-grey-lite d-lg-none col-lg-3 col-4">MTSN</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Typical Employement</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Virtual Platforms</div>
                 <Col className="border-transparent py-4 px-4 bg-grey-lite bg-opacity-10 col-lg-3 col-4">
                   <span className="d-inline-block vertical-middle">Every Week</span>
                 </Col>
@@ -62,6 +71,10 @@ function WhyTab() {
                   <span className="rounded-circle border-orange text-orange bg-white d-inline-block vertical-middle fs-9 w-34 h-34 me-4 text-center position-relative z-index-2">3</span>
                   <span className="d-inline-block vertical-middle">Code Security</span>
                 </Col>
+                <div className="border-transparent py-3 px-2  bg-grey-lite d-lg-none col-lg-3 col-4">MTSN</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Typical Employement</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Virtual Platforms</div>
+
                 <Col className="border-transparent py-4 px-4 bg-orange bg-opacity-10 col-lg-3 col-4">
                   <Image src={Check} width={30} height={30} />
                 </Col>
@@ -78,6 +91,9 @@ function WhyTab() {
                   <span className="rounded-circle border-orange text-orange bg-white d-inline-block vertical-middle fs-9 w-34 h-34 me-4 text-center position-relative z-index-2">4</span>
                   <span className="d-inline-block vertical-middle">Project Management Suite</span>
                 </Col>
+                <div className="border-transparent py-3 px-2  bg-grey-lite d-lg-none col-lg-3 col-4">MTSN</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Typical Employement</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Virtual Platforms</div>
                 <Col className="border-transparent py-4 px-4 bg-grey-lite col-lg-3 col-4">
                   <span className="d-inline-block vertical-middle">Free</span>
                 </Col>
@@ -94,6 +110,9 @@ function WhyTab() {
                   <span className="rounded-circle border-orange text-orange bg-white d-inline-block vertical-middle fs-9 w-34 h-34 me-4 text-center position-relative z-index-2">5</span>
                   <span className="d-inline-block vertical-middle">Pre-Screened Candidates</span>
                 </Col>
+                <div className="border-transparent py-3 px-2  bg-grey-lite d-lg-none col-lg-3 col-4">MTSN</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Typical Employement</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Virtual Platforms</div>
                 <Col className="border-transparent py-4 px-4 bg-orange bg-opacity-10 col-lg-3 col-4">
                   <Image src={Check} width={30} height={30} />
                 </Col>
@@ -110,6 +129,9 @@ function WhyTab() {
                   <span className="rounded-circle border-orange text-orange bg-white d-inline-block vertical-middle fs-9 w-34 h-34 me-4 text-center position-relative z-index-2">6</span>
                   <span className="d-inline-block vertical-middle">Employee Management Cost</span>
                 </Col>
+                <div className="border-transparent py-3 px-2  bg-grey-lite d-lg-none col-lg-3 col-4">MTSN</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Typical Employement</div>
+                <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Virtual Platforms</div>
                 <Col className="border-transparent py-4 px-4 bg-orange bg-opacity-10 col-lg-3 col-4">
                   <span className="d-inline-block vertical-middle">$0/month</span>
                 </Col>

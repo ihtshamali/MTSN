@@ -9,14 +9,14 @@ function SmartContract() {
             <section className="py-5 py-xl-20 text-white" style={{ backgroundColor: "#0E1120" }}>
                 <Container>
                     <Row className="flex-row-reverse align-items-center">
-                        <Col className="text-center d-flex justify-content-center col-xl-5">
+                        <div className="text-center d-flex justify-content-center col-xl-5">
                             <Image src={SmartContractImg}
                                 alt={SmartContractImg}
-                                className="" />
-                        </Col>
-                        <Col className="p-0 col-xl-7">
+                                className="SmartContract" />
+                        </div>
+                        <div className="p-0 col-xl-7">
                             <Row className="mx-0">
-                                <Col className="col-md-6">
+                                <div className="col-md-6">
                                     <div className="py-5">
                                         <h3 className="mb-3 fs28">Smart Contracts</h3>
                                         <p className="mb-0 fs18">Executed automatically when certain conditions are met, bring transparency, speed, accuracy,
@@ -24,8 +24,8 @@ function SmartContract() {
                                             team can assist you in utilizing the benefits of smart contracts.
                                         </p>
                                     </div>
-                                </Col>
-                                <Col className="col-md-6">
+                                </div>
+                                <div className="col-md-6">
                                     <div className="py-5">
                                         <h3 className="mb-3 fs28">Decentralized apps</h3>
                                         <p className="mb-0 fs18 text-justify">By using an open-source decentralized application, you can ensure the privacy and security of
@@ -33,8 +33,8 @@ function SmartContract() {
                                             industry-leading expert-level development support.
                                         </p>
                                     </div>
-                                </Col>
-                                <Col className="col-md-6">
+                                </div>
+                                <div className="col-md-6">
                                     <div className="py-5">
                                         <h3 className="mb-3 fs28">NFT Marketplaces</h3>
                                         <p className="mb-0 fs18">MTSN simplifies the process of developing NFT marketplaces for your company. Contact us
@@ -42,7 +42,7 @@ function SmartContract() {
                                             development team for you.
                                         </p>
                                     </div>
-                                </Col>
+                                </div>
                                 <Col className="col-md-6">
                                     <div className="py-5">
                                         <h3 className="mb-3 fs28">Whitepaper Development</h3>
@@ -53,7 +53,7 @@ function SmartContract() {
                                     </div>
                                 </Col>
                             </Row>
-                        </Col>
+                        </div>
                     </Row>
                 </Container>
             </section>

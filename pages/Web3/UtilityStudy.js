@@ -6,7 +6,7 @@ function UtilityStudy() {
       <section className="py-5">
         <Container>
           <Row>
-            <Col className="bc-features col-md-6">
+            <div className="bc-features col-md-6">
               <div className="my-4">
                 <div className="float-start pe-5">
                   <h6 className="count d-block h1 mb-0 lh-1">1.</h6>
@@ -18,8 +18,8 @@ function UtilityStudy() {
                   </p>
                 </div>
               </div>
-            </Col>
-            <Col className="bc-features col-md-6">
+            </div>
+            <div className="bc-features col-md-6">
               <div className="my-4">
                 <div className="float-start pe-5">
                   <h6 className="count d-block h1 mb-0 lh-1">2.</h6>
@@ -32,8 +32,8 @@ function UtilityStudy() {
                   </p>
                 </div>
               </div>
-            </Col>
-            <Col className="bc-features col-md-6">
+            </div>
+            <div className="bc-features col-md-6">
               <div className="my-4">
                 <div className="float-start pe-5">
                   <h6 className="count d-block h1 mb-0 lh-1 ">3.</h6>
@@ -47,8 +47,8 @@ function UtilityStudy() {
                   </p>
                 </div>
               </div>
-            </Col>
-            <Col className="bc-features col-md-6">
+            </div>
+            <div className="bc-features col-md-6">
               <div className="my-4">
                 <div className="float-start pe-5">
                   <h6 className="count d-block h1 mb-0 lh-1 ">4.</h6>
@@ -61,7 +61,7 @@ function UtilityStudy() {
                   </p>
                 </div>
               </div>
-            </Col>
+            </div>
           </Row>
         </Container>
       </section>

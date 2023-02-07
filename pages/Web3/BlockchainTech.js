@@ -10,7 +10,7 @@ function BlockchainTech() {
                     <h2 className="text-white text-center mb-4 fs40">Blockchain Development Technologies</h2>
                     <Row className="text-center align-items-center justify-content-center">
                         <Col className="">
-                            <Image src={Hyperledger} />
+                            <Image src={Hyperledger} className="Hyperledger"/>
                         </Col>
                     </Row>
                 </Container>
