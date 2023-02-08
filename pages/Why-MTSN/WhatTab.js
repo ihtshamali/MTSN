@@ -4,6 +4,9 @@ import LetUsKnow from "../../public/why-mtsn/let-us-know.svg"
 import ConnectVirtualTeam from "../../public/why-mtsn/connect-with-virtual-team.svg"
 import LevelUp from "../../public/why-mtsn/level-up.svg"
 import Sleep from "../../public/why-mtsn/sleep-easy.svg"
+import LetUsKnowImg from "../../public/why-mtsn/let-us-know.png"
+import VirtualTeam from "../../public/why-mtsn/virtual-team.png"
+import Level from "../../public/why-mtsn/level-up-illustration.png"
 
 function WhatTab() {
     return (
@@ -11,7 +14,7 @@ function WhatTab() {
             <Container>
                 <Row className="align-items-center py-4 py-lg-5 flex-row-reverse">
                     <Col className="col-md-5 col-12">
-                        <Image src={LetUsKnow} />
+                        <Image src={LetUsKnowImg} className="ConnectVirtual" />
                     </Col>
                     <Col className="ps-5 pt-10 pt-md-0 col-md-7 col-12">
                         <h2 className="fs40 d-flex align-items-center ms-n13">
@@ -35,7 +38,7 @@ function WhatTab() {
 
                 <Row className="align-items-center py-4 py-lg-5 flex-row-reverse">
                     <Col className="col-md-5 col-12">
-                        <Image src={ConnectVirtualTeam} className="ConnectVirtual"/>
+                        <Image src={VirtualTeam} className="ConnectVirtual"/>
                     </Col>
                     <Col className="ps-5 pt-10 pt-md-0 col-md-7 col-12">
                         <h2 className="fs40 d-flex align-items-center ms-n13">
@@ -59,7 +62,7 @@ function WhatTab() {
 
                 <Row className="align-items-center py-4 py-lg-5 flex-row-reverse">
                     <Col className="col-md-5 col-12 text-center">
-                        <Image src={LevelUp} className="ConnectVirtual"/>
+                        <Image src={Level} className="levelup"/>
                     </Col>
                     <Col className="ps-5 pt-10 pt-md-0 col-md-7 col-12">
                         <h2 className="fs40 d-flex align-items-center ms-n13">

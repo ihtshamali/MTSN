@@ -33,8 +33,8 @@ function Header() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
+              className="my-2 my-lg-0 nav-bar-height"
+              // style={{ maxHeight: '100px' }}
               navbarScroll
             >
               <ul className='tex-light inline-list'>

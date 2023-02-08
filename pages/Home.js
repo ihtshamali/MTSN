@@ -24,7 +24,7 @@ function Home() {
         <Integrations/>
         <Scalesmarter/>
         <Consultation consultationheading="Ready to take your tech to the next level?"/>
-        <CenterMode/>
+        {/* <CenterMode/> */}
 
     </>
   )

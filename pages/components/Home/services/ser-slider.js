@@ -106,12 +106,7 @@ export default class CenterMode extends Component {
                       width={33}
                       height={35} />
                   </li>
-                  <li className='ps-3'>
-                    <Image src={laravel}
-                      alt="laravel"
-                      width={35}
-                      height={35} />
-                  </li>
+                  
                 </ul>
                 <Link className='text-white text-decoration-none' href={'/services/web-development'}>
                   View Work<span className='arrow-right mt-1 ms-2'>

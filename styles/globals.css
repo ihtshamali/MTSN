@@ -884,6 +884,14 @@ figure:hover .at-casestudytitletwo {
 .bg-grey-lite{
   background: #B7B6B6;
 }
+.ConnectVirtual{
+  width: 100%;
+  height: auto;
+}
+.levelup{
+  width: 200px;
+  height: auto;
+}
 
 .mt-n6r {
   margin-top: -7.5rem;
@@ -942,6 +950,13 @@ figure:hover .at-casestudytitletwo {
   width: 360px;
   height: 198px;
 }
+.levelup{
+  width: 150px;
+  height: auto;
+}
+.nav-bar-height{
+  max-height:fit-content;
+}
 }
 .navbar-toggler-icon {
     background-image: url('../public/hamburger.svg') !important;
@@ -950,4 +965,7 @@ figure:hover .at-casestudytitletwo {
 .slick-slide {
   padding:10px;
   text-align:center;
+}
+.nav-bar-height{
+  max-height: 100px;
 }

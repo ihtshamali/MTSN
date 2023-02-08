@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Memberships() {
     return (
         <>
-        <style jsx>{`
+            <style jsx>{`
           .px-xxl-95{
             padding-right: 9.5rem;
             padding-left: 9.5rem;
@@ -28,21 +28,21 @@ function Memberships() {
                     </p>
 
                     <Row className='adoptDocker position-relative'>
-                    <span></span>
-                        <Col className='px-4 pb-4 pb-md-0'>
+                        <span></span>
+                        <div className='px-12 pb-12 pb-md-0 col-md-6'>
                             <div className='text-center'>
                                 <h4 className="fs28 mb-5 mb-md-12 text-white">Development is challenging</h4>
-                                <ul style={{ color: 'rgba(156, 153, 153, 1)' }}  className="fs18 list-unstyled mb-0">
+                                <ul style={{ color: 'rgba(156, 153, 153, 1)' }} className="fs18 list-unstyled mb-0">
                                     <li>Hiring a local development team can be costly, while outsourced</li>
                                     <li>talent may not always meet expectations. This can leave </li>
                                     <li>businesses feeling stuck and overwhelmed, rather than </li>
                                     <li>enjoying a streamlined development process.</li>
-                                   
+
                                 </ul>
                             </div>
-                        </Col>
-                        <Col className='px-4 pb-4 pb-md-0'>
-                        <div className='text-center'>
+                        </div>
+                        <div className='px-12 col-md-6'>
+                            <div className='text-center'>
                                 <h4 className="fs28 mb-5 mb-md-12 text-white">MTSN makes things easier</h4>
                                 <ul style={{ color: 'rgba(156, 153, 153, 1)' }} className="fs18 list-unstyled mb-0">
                                     <li>Renesis teams work 100% remote to cut costs for our clients</li>
@@ -51,9 +51,9 @@ function Memberships() {
                                     <li>Our cloud-based teams deliver high-quality, high-ROI results</li>
                                 </ul>
                             </div>
-                        
 
-                        </Col>
+
+                        </div>
                     </Row>
 
                 </Container>
