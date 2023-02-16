@@ -23,7 +23,7 @@ function Home() {
         <Team/>
         <Integrations/>
         <Scalesmarter/>
-        <Consultation consultationheading="Ready to take your tech to the next level?"/>
+        <Consultation consultationheading="Ready to take your tech to the next level?" consultationclass="py-5 consultation-bg text-center"/>
         {/* <CenterMode/> */}
 
     </>

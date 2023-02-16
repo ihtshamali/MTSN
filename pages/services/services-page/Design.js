@@ -17,9 +17,9 @@ function Design(props) {
                 <Container>
                     <Row className={props.rowclass}>
                         <Col className={props.firstcolclass}>
-                            <Image src={design}
+                            <Image src={props.ServicePicture}
                                 alt="Design"
-                                className="design-image"
+                                className={props.ImageStyle}
                             />
                         </Col>
                         <Col className={props.secondcolclass}>

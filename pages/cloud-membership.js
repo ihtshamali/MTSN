@@ -34,7 +34,7 @@ function Cloudmembership() {
             <Startupplan />
             <Enterpriseplan />
             <Customplan />
-            <Consultation />
+            <Consultation consultationclass="py-5 consultation-bg text-center"/>
         </>
     )
 }

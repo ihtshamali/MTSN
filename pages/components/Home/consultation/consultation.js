@@ -3,10 +3,10 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Button from '../../Button/Button'
 
-function Consultation() {
+function Consultation(props) {
     return (
         <>
-            <section className='py-5 consultation-bg text-center'>
+            <section className={props.consultationclass}>
                 <Container>
                     <Row>
                         <Col className='py-4'>

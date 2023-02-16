@@ -2,9 +2,12 @@ import Head from 'next/head'
 import Hero from './components/Herosection/herosection'
 import Design from './services/services-page/Design'
 import ServicesImg from '/public/services.png'
-import Designimg from "../public/services/design.svg"
 import Consultation from './components/Home/consultation/consultation'
-
+import DesignPicture from "../public/services/design-img.png"
+import WebDev from "../public/services/WebDev.png"
+import BlockchainDev from "../public/services/BlockchainDev.png"
+import GameDev from "../public/services/game-development.svg"
+import MobileDev from "../public/services/MobileDev.png"
 
 function Services() {
   return (
@@ -31,8 +34,9 @@ function Services() {
       {/* design */}
       <Design sectionclass="py-10 py-lg-20 overflow-hidden service-design position-relative bg-grey"
         rowclass="align-items-md-center justify-content-md-between"
-        firstcolclass="col-xl-6 col-md-6"
-        servicesimage="Designimg"
+        firstcolclass="align-last-center col-xl-6 col-md-6"
+        ServicePicture={DesignPicture}
+        ImageStyle="design-image"
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
         heading="design"
         paragraph="When it comes to creating engaging products and driving customer interactions,
@@ -44,7 +48,9 @@ function Services() {
       {/* Web Development */}
       <Design sectionclass="py-10 py-lg-20 overflow-hidden service service-design position-relative bg-purple"
         rowclass="align-items-md-center justify-content-md-between flex-row-reverse"
-        firstcolclass="col-xl-6 col-md-6"
+        firstcolclass="align-last-center col-xl-6 col-md-6"
+        ServicePicture={WebDev}
+        ImageStyle="web-img py-3"
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
         heading="Web Development"
         paragraph="From simple websites to complex, custom software, web development plays an 
@@ -53,9 +59,11 @@ function Services() {
       />
 
       {/* Blockchain */}
-      <Design sectionclass="py-10 py-lg-20 overflow-hidden service service-design position-relative"
+      <Design sectionclass="py-10 py-lg-20 overflow-hidden service service-design position-relative bg-grey"
         rowclass="align-items-md-center justify-content-md-between"
-        firstcolclass="col-xl-6 col-md-6"
+        firstcolclass="align-last-center col-xl-6 col-md-6"
+        ServicePicture={BlockchainDev}
+        ImageStyle="blockchain-ser-img"
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
         heading="Blockchain"
         paragraph="Interested in developing blockchain technology or NFTs? We can help. Our forward-thinking 
@@ -64,28 +72,45 @@ function Services() {
       />
 
       {/* Mobile Development */}
-      <Design sectionclass="py-10 py-lg-20 overflow-hidden service service-design position-relative bg-grey"
+      <Design sectionclass="py-10 py-lg-20 overflow-hidden service service-design position-relative"
         rowclass="align-items-md-center justify-content-md-between flex-row-reverse"
-        firstcolclass="col-xl-6 col-md-6"
+        firstcolclass="align-last-center col-xl-6 col-md-6"
+        ServicePicture={GameDev}
+        ImageStyle="design-image py-3"
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
-        heading="Web Development"
-        paragraph="From simple websites to complex, custom software, web development plays an 
-      outsized role in the success of your company. MTSN makes it easy to build professional 
-      teams for your organization’s cloud development ecosystem."
+        heading="Game Development"
+        paragraph="Are you trying to figure out how to launch AR, VR applications, or mobile games? Our top 
+        talent ensures end-to-end solutions for building and launching products on both iOS and Android. 
+        Outfox your competition by increasing your speed to market!"
       />
 
-      {/* AI & Machine Learning */}
-      <Design sectionclass="py-10 py-lg-20 overflow-hidden service service-design position-relative"
+      {/* Mobile Development */}
+      <Design sectionclass="py-10 py-lg-20 overflow-hidden service service-design position-relative bg-purple"
         rowclass="align-items-md-center justify-content-md-between"
-        firstcolclass="col-xl-6 col-md-6"
+        firstcolclass="align-last-center col-xl-6 col-md-6"
+        ServicePicture={MobileDev}
+        ImageStyle="design-image"
         secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
-        heading="AI & Machine Learning"
+        heading="Mobile Development"
         paragraph="Artificial intelligence & machine learning already play an outsized role in the 
         newest, most exciting tech developments and this is only going to become more pronounced 
         as the years go by. Stay a step ahead with an industry-leading team from MTSN."
       />
 
-      <Consultation />
+      {/* AI development */}
+      {/* <Design sectionclass="py-10 py-lg-20 overflow-hidden service service-design position-relative bg-grey"
+        rowclass="align-items-md-center justify-content-md-between flex-row-reverse"
+        firstcolclass="align-last-center col-xl-6 col-md-6"
+        ServicePicture={GameDev}
+        ImageStyle="design-image py-3"
+        secondcolclass="col-xxl-5 col-xl-6 col-md-6 text-white"
+        heading="Game Development"
+        paragraph="Are you trying to figure out how to launch AR, VR applications, or mobile games? Our top 
+        talent ensures end-to-end solutions for building and launching products on both iOS and Android. 
+        Outfox your competition by increasing your speed to market!"
+      /> */}
+
+      <Consultation consultationclass="py-5 services-bg text-center"/>
     </>
   )
 }

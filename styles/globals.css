@@ -957,6 +957,9 @@ figure:hover .at-casestudytitletwo {
 .nav-bar-height{
   max-height:fit-content;
 }
+.nav-bar-height li{
+  padding: 10px 0px;
+}
 }
 .navbar-toggler-icon {
     background-image: url('../public/hamburger.svg') !important;
@@ -968,4 +971,22 @@ figure:hover .at-casestudytitletwo {
 }
 .nav-bar-height{
   max-height: 100px;
+}
+.align-last-center{
+text-align-last: center;
+}
+.web-img{
+  width: 430px;
+  height: auto;
+}
+.blockchain-ser-img{
+  width: 540px;
+  height: auto;
+}
+
+.services-bg {
+  background-image: url(../public/services/service-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }

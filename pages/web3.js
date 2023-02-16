@@ -38,8 +38,9 @@ function Web3() {
       <UtilityStudy />
       <FocusIndustries />
       <BlockchainTech />
-      <Consultation consultationheading="Blockchain specialists are available on demand." />
-      
+      <Consultation consultationheading="Blockchain specialists are available on demand."
+        consultationclass="py-5 consultation-bg text-center" />
+
     </>
   )
 }

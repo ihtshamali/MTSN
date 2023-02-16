@@ -21,7 +21,7 @@ function WhyMTSN() {
         team dynamic and budget. We created MTSN to increase access and improve affordability."
       />
       <TabsComponent/>
-      <Consultation />
+      <Consultation consultationclass="py-5 consultation-bg text-center"/>
     </>
   )
 }
