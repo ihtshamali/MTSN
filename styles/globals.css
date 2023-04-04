@@ -990,11 +990,13 @@ text-align-last: center;
   background-size: cover;
   background-position: top;
 }
-
+ .fontsize18{
+        font-size: 18px;
+    }
 @media (max-width:512px) {
-/*     .fs18, fs-18 {
-        font-size: 17px !important;
-    } */
+    .fontsize18{
+        font-size: 16px !important;
+    }
   .fs28, .fs-28{
     font-size: 24px !important;
   }
