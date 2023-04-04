@@ -45,7 +45,7 @@ function Memberships() {
                             <div className='text-center'>
                                 <h4 className="fs28 mb-5 mb-md-12 text-white">MTSN makes things easier</h4>
                                 <ul style={{ color: 'rgba(156, 153, 153, 1)' }} className="fs18 list-unstyled mb-0">
-                                    <li>Renesis teams work 100% remote to cut costs for our clients</li>
+                                    <li>MTSN teams work 100% remote to cut costs for our clients</li>
                                     <li>All Renesis developers and designers have a track record of success </li>
                                     <li>We provide the ultimate blend of qualified tech talent and affordability</li>
                                     <li>Our cloud-based teams deliver high-quality, high-ROI results</li>
