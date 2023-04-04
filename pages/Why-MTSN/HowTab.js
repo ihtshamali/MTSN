@@ -52,7 +52,7 @@ function HowTab() {
                             <div className="list-group-item p-0 pb-5 ps-5">
                                 <strong className="d-block fs18 fw500 pb-2">Skill Augmentation</strong>
                                 <p class="mb-0">
-                                    Some clients rely on Renesis to form the entirety of their development team,
+                                    Some clients rely on MTSN to form the entirety of their development team,
                                     while others are looking to augment their existing skills and capabilities.
                                     In either event, we’ve got the expert personnel needed to take your complex
                                     projects to new heights.
