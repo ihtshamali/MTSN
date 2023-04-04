@@ -101,7 +101,7 @@ function WhatTab() {
                             Personnel issues will be resolved promptly (at no cost to you)
                         </p>
                         <p class="mb-0 text-white">
-                            All Renesis teams come with an industry-leading guarantee. If you aren’t satisfied
+                            All MTSN teams come with an industry-leading guarantee. If you aren’t satisfied
                             with the skill level provided or other aspects of collaboration, simply let us know
                             and we’ll find a more suitable match for your project.
                         </p>
