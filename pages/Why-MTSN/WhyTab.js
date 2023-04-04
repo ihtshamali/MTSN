@@ -89,7 +89,7 @@ function WhyTab() {
               <Row className="fs-7 fs-md-8 m-0 mb-3 ">
                 <Col className="bg-white border-transparent py-4 px-4 text-start col-lg-3 col-12">
                   <span className="rounded-circle border-orange text-orange bg-white d-inline-block vertical-middle fs-9 w-34 h-34 me-4 text-center position-relative z-index-2">4</span>
-                  <span className="d-inline-block vertical-middle">Project Management Suite</span>
+                  <span className="d-inline-block vertical-middle">Project Management</span>
                 </Col>
                 <div className="border-transparent py-3 px-2  bg-grey-lite d-lg-none col-lg-3 col-4">MTSN</div>
                 <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Typical Employement</div>
@@ -108,7 +108,7 @@ function WhyTab() {
               <Row className="fs-7 fs-md-8 m-0 mb-3 ">
                 <Col className="bg-white border-transparent py-4 px-4 text-start col-lg-3 col-12">
                   <span className="rounded-circle border-orange text-orange bg-white d-inline-block vertical-middle fs-9 w-34 h-34 me-4 text-center position-relative z-index-2">5</span>
-                  <span className="d-inline-block vertical-middle">Pre-Screened Candidates</span>
+                  <span className="d-inline-block vertical-middle">Pre-Screened</span>
                 </Col>
                 <div className="border-transparent py-3 px-2  bg-grey-lite d-lg-none col-lg-3 col-4">MTSN</div>
                 <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Typical Employement</div>
@@ -127,7 +127,7 @@ function WhyTab() {
               <Row className="fs-7 fs-md-8 m-0 mb-3 ">
                 <Col className="bg-white border-transparent py-4 px-4 text-start col-lg-3 col-12">
                   <span className="rounded-circle border-orange text-orange bg-white d-inline-block vertical-middle fs-9 w-34 h-34 me-4 text-center position-relative z-index-2">6</span>
-                  <span className="d-inline-block vertical-middle">Employee Management Cost</span>
+                  <span className="d-inline-block vertical-middle">Cost Management</span>
                 </Col>
                 <div className="border-transparent py-3 px-2  bg-grey-lite d-lg-none col-lg-3 col-4">MTSN</div>
                 <div className="border-transparent py-3 px-2 bg-grey-lite d-lg-none col-lg-3 col-4">Typical Employement</div>
