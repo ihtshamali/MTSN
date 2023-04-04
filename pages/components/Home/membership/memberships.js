@@ -32,7 +32,7 @@ function Memberships() {
                         <div className='px-12 pb-12 pb-md-0 col-md-6'>
                             <div className='text-center'>
                                 <h4 className="fs28 mb-5 mb-md-12 text-white">Development is challenging</h4>
-                                <ul style={{ color: 'rgba(156, 153, 153, 1)' }} className="fs18 list-unstyled mb-0">
+                                <ul style={{ color: 'rgba(156, 153, 153, 1)' }} className="fs18 list-unstyled mb-5">
                                     <li>Hiring a local development team can be costly, while outsourced</li>
                                     <li>talent may not always meet expectations. This can leave </li>
                                     <li>businesses feeling stuck and overwhelmed, rather than </li>
