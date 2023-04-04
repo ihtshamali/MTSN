@@ -29,7 +29,7 @@ function WhatTab() {
                             Provide info on your tech stack and project-specific requirements
                         </p>
                         <p class="mb-0 text-white">
-                            Getting started with Renesis is easy. Simply schedule a free consultation
+                            Getting started with MTSN is easy. Simply schedule a free consultation
                             with one of our project coordinators to discuss your options, explore your
                             possibilities, and get the ball rolling on your complex development project.
                         </p>
@@ -55,7 +55,7 @@ function WhatTab() {
                         <p class="mb-0 text-white">
                             From NFT development to UI/UX design, our pool of talented contractors
                             has experience bringing a wide variety of B2C and B2B tech products to
-                            life. Find the perfect development team for your vision with Renesis today.
+                            life. Find the perfect development team for your vision with MTSN today.
                         </p>
                     </Col>
                 </Row>
@@ -77,8 +77,8 @@ function WhatTab() {
                             Discover what a cloud development ecosystem can do for you
                         </p>
                         <p class="mb-0 text-white">
-                            Working with a Renesis team is like having a department of your office collaborating
-                            off-site. For the entire collaboration, your Renesis team will be committed to
+                            Working with a MTSN team is like having a department of your office collaborating
+                            off-site. For the entire collaboration, your MTSN team will be committed to
                             ensuring you get the elite development you deserve.
                         </p>
                     </Col>
