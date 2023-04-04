@@ -8,7 +8,7 @@ import Link from "next/link"
 function Packages() {
   return (
     <>
-      <section className='py-5'>
+      <section className='pt-4 pb-5'>
         <Container fluid="lg">
           <h2 className="px-4 px-lg-0 mb-5 text-center text-white">Our Packages</h2>
           <Row className="d-md-flex">
