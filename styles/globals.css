@@ -991,11 +991,11 @@ text-align-last: center;
   background-position: top;
 }
 
-@media (max-width:300px) and (min-width:512px) {
+@media (max-width:512px) {
     .fs18, fs-18 {
         font-size: 16px !important;
     }
-  .fs28{
+  .fs28, .fs-28{
     font-size: 24px !important;
   }
 }
