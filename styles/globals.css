@@ -991,7 +991,7 @@ text-align-last: center;
   background-position: top;
 }
 
-@media (max-width:512px) {
+/* @media (max-width:512px) {
     .fs18, fs-18 {
         font-size: 16px !important;
     }
@@ -1002,4 +1002,4 @@ text-align-last: center;
   padding-top: 0px !important;
   padding-bottom: 0px !important;
   }
-}
+} */
