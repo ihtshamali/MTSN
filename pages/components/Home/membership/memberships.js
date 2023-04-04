@@ -18,7 +18,7 @@ function Memberships() {
         } 
         `}
             </style>
-            <section style={{ backgroundColor: '#151720' }} className='py-5'>
+            <section style={{ backgroundColor: '#151720' }} className='py-5 py-mobile-0'>
                 <Container>
                     <h2 className='fs40 py-4 px-lg-0 mb-2 text-center text-white'>Cloud Membership</h2>
                     <h3 style={{ color: 'rgba(156, 153, 153, 1)' }} className='fs28 mb-5 text-center'>Cut costs, not corners</h3>
