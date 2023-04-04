@@ -9,7 +9,7 @@ function HowTab() {
                 <Container>
                     <Col className="col-xxl-6 col-lg-9">
                         <h2 className="mb-5 text-white">
-                            Discover a smarter way to develop with Renesis.
+                            Discover a smarter way to develop with MTSN.
                         </h2>
                     </Col>
                     <Row className="ui-features justify-content-between">
@@ -17,7 +17,7 @@ function HowTab() {
                             <div className="list-group-item p-0 pb-5 ps-5">
                                 <strong className="d-block fs18 fw500 pb-2">Flexible Deployment</strong>
                                 <p class="mb-0">It doesn’t matter what size your company is or what type of
-                                    technology stack you are using – Renesis specializes in building dynamic,
+                                    technology stack you are using – MTSN specializes in building dynamic,
                                     on-demand teams that are capable of seamlessly integrating into your
                                     company and thriving in any environment.
                                 </p>
@@ -28,7 +28,7 @@ function HowTab() {
                             <div className="list-group-item p-0 pb-5 ps-5">
                                 <strong className="d-block fs18 fw500 pb-2">100% Remote</strong>
                                 <p class="mb-0">
-                                    Building out a development team? Renesis creates cloud-based
+                                    Building out a development team? MTSN creates cloud-based
                                     fully remote development ecosystems incorporating role-specific talent from
                                     across the globe. Discover what our pool of world-class developers can do
                                     for your next project today.
@@ -40,7 +40,7 @@ function HowTab() {
                             <div className="list-group-item p-0 pb-5 ps-5">
                                 <strong className="d-block fs18 fw500 pb-2">Full Integration</strong>
                                 <p class="mb-0">
-                                    At Renesis, we recognize the importance of company dynamics and
+                                    At MTSN, we recognize the importance of company dynamics and
                                     culture fit. Our teams come with a risk-free guarantee – if you
                                     aren’t happy with the way our talent has integrated into your
                                     operations just let us know within a week and we’ll source a better match.
