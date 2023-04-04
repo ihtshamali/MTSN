@@ -992,7 +992,7 @@ text-align-last: center;
 }
 
 @media (max-width:300px) and (min-width:512px) {
-    .fs18 {
+    .fs18, fs-18 {
         font-size: 16px !important;
     }
   .fs28{
