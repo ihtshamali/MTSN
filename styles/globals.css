@@ -990,3 +990,9 @@ text-align-last: center;
   background-size: cover;
   background-position: top;
 }
+
+@media (max-width:300px) and (min-width:512px) {
+    .fs18 {
+        font-size: 16px !important;
+    }
+}
