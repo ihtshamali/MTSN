@@ -162,13 +162,13 @@ function WhyTab() {
                   <Col className="py-3 px-5 col-lg-4 col-md-6 col-sm-12">
                     <strong className="fs-9 fw-medium pb-6 d-block">Easy to Work With</strong>
                     <p className="mb-0 fs-8">We don’t just look for technical capabilities when
-                      building your team – Renesis prioritizes soft skills and communication ability too.
+                      building your team – MTSN prioritizes soft skills and communication ability too.
                     </p>
                   </Col>
 
                   <Col className="py-3 px-5 col-lg-4 col-md-6 col-sm-12">
                     <strong className="fs-9 fw-medium pb-6 d-block">Risk-Free Trials</strong>
-                    <p className="mb-0 fs-8">All Renesis teams start with a 1 month trial period so
+                    <p className="mb-0 fs-8">All MTSN teams start with a 1 month trial period so
                       that you can evaluate the fit. Not happy with your team? We’ll replace them for free.
                     </p>
                   </Col>
@@ -185,7 +185,7 @@ function WhyTab() {
                 <Col className="d-flex flex-wrap justify-content-between ps-4 col-12 text-white">
                   <Col className="py-3 px-5 col-lg-4 col-md-6 col-sm-12">
                     <strong className="fs-9 fw-medium pb-6 d-block">Seamless Ramp Up</strong>
-                    <p className="mb-0 fs-8">To enable speedy deployment, Renesis teams are trained to
+                    <p className="mb-0 fs-8">To enable speedy deployment, MTSN teams are trained to
                       adapt to your internal project management and collaboration tools.
                     </p>
                   </Col>
@@ -202,7 +202,7 @@ function WhyTab() {
                     <strong className="fs-9 fw-medium pb-6 d-block">Scalability</strong>
                     <p className="mb-0 fs-8">
                       Scalability and flexibility go hand in hand. With no restrictive contracts,
-                      Renesis teams can be deployed for days, weeks, or months at a time.
+                      MTSN teams can be deployed for days, weeks, or months at a time.
                     </p>
                   </Col>
                 </Col>
@@ -226,7 +226,7 @@ function WhyTab() {
                   <Col className="py-3 px-5 col-lg-4 col-md-6 col-sm-12">
                     <strong className="fs-9 fw-medium pb-6 d-block">Hidden Savings</strong>
                     <p className="mb-0 fs-8">
-                      On top of the hourly advantages to hiring a Renesis team over full-time employees,
+                      On top of the hourly advantages to hiring a MTSN team over full-time employees,
                       you also save big on vacation pay, health benefits, and more.
                     </p>
                   </Col>
